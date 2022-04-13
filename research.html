@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Research | Yahya Sattar</title>
+</head>
+<body>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+    var pageTracker = _gat._getTracker("UA-114683716-1");
+    pageTracker._trackPageview();
+} catch(err) {}</script>
+<div id="fwtitle">
+<div id="toptitle">
+  <h1>&nbsp; <font size=+3.0>Yahya Sattar</font> <img style="background-color:#0000FF" src="ucr.svg" align="right" height="35"></h1>
+</div>
+</div>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-item"><a href=""></a></div>
+<div class="menu-item"><a href="research.html" class="current">Research</a></div>
+<div class="menu-item"><a href=""></a></div>
+<div class="menu-item"><a href="publications.html">Publications</a></div>
+<div class="menu-item"><a href=""></a></div>
+<div class="menu-item"><a href="contact.html">Contact</a></div>
+</td>
+<td id="layout-content">
+<p>My research lies at the confluence of machine learning, optimization, statistics and applied mathematics.</p>
+<h2>Learning and Control of (Nonlinear) Dynamical Systems</h2>
+<!-- <p>&emsp; &emsp; <img src="imgs/autonomy.png" align="center" height="120" /></p> -->
+<p>&emsp; &emsp; <img src="imgs/non_linear_dynamical_system.png" align="center" height="220"></p>
+<p>
+  Recently data-driven control is getting lots of attention both from control and machine learning communities. 
+  We contributed to this direction by formulating a general framework for learning nonlinear dynamical systems 
+  from finite samples collected from a single trajectory. 
+  We provide optimal sample complexity and optimal statistical rates for learning nonlinear dynamical systems. 
+  More recently, we have also studied the problem of learning and adaptive control of Markov jump linear systems 
+  and Bilinear dynamical systems where the dynamics of the system is governed by multiple state-input matrices.
+</p>
+<ul>
+<li><p><a href="https://arxiv.org/abs/2002.08538">Non-asymptotic and accurate learning of nonlinear dynamical systems</a>
+<a href="https://arxiv.org/pdf/2002.08538.pdf"><font color=maroon>[pdf]</font></a> <a href="papers/non_asymptotic.bib"><font color=maroon>[cite]</font></a>
+<br /> <font color=green>Y. Sattar</font>, S. Oymak<br />
+<i>Journal of Machine Learning Research (<b>JMLR</b>)</i>, 2022</p>
+</li>
+</ul>
+
+<h2>Convergence of Semi-supervised Learning with Self-training</h2>
+<p>&emsp; &emsp; <img src="imgs/semi_supervised.png" align="center" height="240" /></p>
+<p>
+  In the past few years, we saw a tremendous success in efficiently using unlabeled data to train deep networks.
+  With only few labeled samples, the sate-of-the-art semi-supervised learning algorithms achieve almost the
+  same accuracy as their supervised counterparts. However, these methods lack theoretical insights. Here we
+  contributed by studying the optimization landscape of semi-supervised training involving pseudo-labels. We
+  give two-stage convergence guarantee and statistical error bounds for the semi-supervised learning involving
+  pseudo-labels.
+</p>
+<ul>
+  <li><p><a href="https://www.dropbox.com/s/5nu0hezedqn3a4q/TSP_2022.pdf?dl=0">Convergence Guarantee for Gradient-based Semi-Supervised Learning with Self- training</a>
+  <!-- <a href="https://arxiv.org/pdf/2002.08538.pdf"><font color=maroon>[pdf]</font></a> <a href="papers/non_asymptotic.bib"><font color=maroon>[cite]</font></a> -->
+  <br /> <font color=green>Y. Sattar</font>, S. Oymak<br />
+  <i><font color="blue">Under Submission</font></i></p>
+  </li>
+</ul>
+
+<h2>High Dimensional Estimation</h2>
+<p>&emsp; &emsp; <img src="imgs/pgd.png" align="center" height="260" /></p>
+<p>
+  We study the problem of finding the best linear model that can minimize least-squares loss given a (finite)
+  dataset in high-dimensions. The population minimizer is assumed to lie on a manifold such as sparse
+  vectors. We show convergence of projected gradient descent to estimate the population minimizer and
+  establish data-dependent estimation error bounds for heavier tailed subexponential distributions besides
+  subgaussian.
+</p>
+<ul>
+  <li><p><a href="https://ieeexplore.ieee.org/abstract/document/8950419">Quickly Finding the Best Linear Model in High Dimensions via Projected Gradient Descent</a>
+    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8950419"><font color=maroon>[pdf]</font></a> <a href="papers/quickly.bib"><font color=maroon>[cite]</font></a>
+    <br /> <font color=green>Y. Sattar</font>, S. Oymak<br />
+  <i>IEEE Transactions on Signal Processing (<b>TSP</b>)</i>, 2020</p>
+  </li>
+</ul>
+
+<h2>Reconstruction of non-bandlimited signals on the Sphere</h2>
+<p>&emsp; &emsp; <img src="imgs/spherical.png" align="center" height="300" /></p>
+<p>
+  This work involves the accurate and robust reconstruction of non-bandlimited finite rate of innovation
+  signals on the sphere from finite samples. The idea is to efficiently use the annihilating filter method to
+  increase the accuracy and reduce the number of samples required. Our proposed method finds
+  application in cosmology, medical imaging, and wireless sensor networks to name a few.
+</p>
+<ul>
+  <li><p><a href="https://ieeexplore.ieee.org/abstract/document/7952912">Robust reconstruction of spherical signals with finite rate of innovation</a>
+  <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7952912"><font color=maroon>[pdf]</font></a> <a href="papers/robust.bib"><font color=maroon>[cite]</font></a>
+  <br /> <font color=green>Y. Sattar</font>, Z. Khalid, R. A. Kennedy<br />
+  <i>IEEE International Conference on Acoustics, Speech and Signal Processing (<b>ICASSP</b>)</i>, 2017</p>
+  </li>
+</ul>
+
+<h2>Estimation of Ground Water Storage Changes in Indus River Basin Using GRACE data</h2>
+<p>&emsp; &emsp; <img src="imgs/estimation_ground_water.png" align="center" height="260" /></p>
+<p>
+  The depletion of groundwater level is of critical importance for sustainable groundwater management. In
+  this work, we use Gravity Recovery and Climate Experiment (GRACE) to estimate variations in the
+  terrestrial water storage and use it in conjunction with the Global Land Data Assimilation System (GLDAS)
+  data to extract groundwater variations over time for Indus River basin.
+</p>
+<ul>
+  <li><p><a href="https://ieeexplore.ieee.org/abstract/document/9413591">Estimation of Groundwater Storage Variations in Indus River Basin Using Grace Data</a>
+  <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9413591"><font color=maroon>[pdf]</font></a> <a href="papers/estimation.bib"><font color=maroon>[cite]</font></a>
+  <br /> <font color=green>Y. Sattar</font>, Z. Khalid<br />
+  <i>IEEE International Conference on Acoustics, Speech and Signal Processing (<b>ICASSP</b>)</i>, 2021</p>
+  </li>
+</ul>
+
+<h2>Other Related Projects</h2>
+<!-- <p>&emsp; &emsp; <img src="imgs/network.png" align="center" height="175" /></p> -->
+<p>
+  Few-shot reinforcement learning with zeroth-order optimization for Mujoco locomotion tasks. Self-
+  organizing acoustic localization networks (<a href="https://www.dropbox.com/s/g1q68hfnq4k3o72/SOALNET-Final%20Report.pdf?dl=0">link</a>).
+</p>
+<div id="footer">
+<div id="footer-text">
+Page generated 2021-10-31, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
