@@ -1,0 +1,30 @@
+---
+layout: about
+title: about
+permalink: /
+subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+
+profile:
+  align: right
+  image: prof_pic.jpg
+  image_circular: false # crops the image to make it circular
+  more_info: >
+    <p>Cornell University Department of Computer Science</p>
+    <p>Bill & Melinda Gates Hall, Room 344</p>
+    <p> 107 HoyRd, Ithaca, NY 14850, USA</p>
+
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
+---
+
+I am a Postdoctoral Associate in the Department of Computer Science at Cornell University, Ithaca, New York. My research interests revolve broadly around the statistical and algorithmic aspects of sequential learning and decision making in dynamic settings, with applications in robotics, autonomous systems, and broader scientific and engineering domains. More precisely, I study the learning and inference problems arising in Optimal Control, Reinforcement Learning, and Machine Learning, using tools and concepts from Statistical Learning , Optimization , and Control Theory.
