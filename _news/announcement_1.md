@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Paper published in NeurIPS
-date: 2015-06-08 15:59:00-0400
+date: 2025-06-08 15:59:00-0400
 inline: false
 related_posts: false
 ---
