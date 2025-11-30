@@ -440,19 +440,21 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-paper-published-in-neurips",
+            },},{id: "news-paper-published-in-neurips",
           title: 'Paper published in NeurIPS',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_1/";
+            },},{id: "news-poster-at-the-workshop-on-theoretical-foundations-of-applied-ai-uw-seattle",
+          title: 'Poster at the Workshop on Theoretical Foundations of Applied AI, UW Seattle.',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_3/";
+            },},{id: "news-submitted-a-paper-to-the-ieee-transactions-on-automatic-control",
+          title: 'Submitted a paper to the IEEE Transactions on Automatic Control.',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
