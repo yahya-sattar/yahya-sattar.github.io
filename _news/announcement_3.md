@@ -1,8 +1,13 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
-inline: true
+title: Poster at the Workshop on Theoretical Foundations of Applied AI, UW Seattle.
+date: 2025-09-07 16:11:00-0400
+inline: false
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Finite Sample Identification of Partially Observed Bilinear Dynamical Systems ”
+ <li>Poster at the Workshop on Theoretical Foundations of Applied AI, UW Seattle. UW Seattle 2025</li>
+ <li>Invited talk at Prof. Necmiye Ozay’s group meeting, U Michigan Ann Arbor. U Michigan 2025</li>
+
+---

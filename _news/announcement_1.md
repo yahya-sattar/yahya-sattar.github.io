@@ -8,3 +8,9 @@ related_posts: false
 
 Our Paper titled "Pre-trained Large Language Models Learn Hidden Markov Models In-context" got published in NeurIPS.
 
+---
+
+Details:
+Title <a href="https://arxiv.org/pdf/2506.07298">Pre-trained Large Language Models Learn Hidden Markov Models In-context</a>
+NeurIPS 2025
+Y. Dai, Z. Gao, Y. Sattar, S. Dean, J.J. Sun,
