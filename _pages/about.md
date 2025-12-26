@@ -9,8 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Cornell University Department of Computer Science</p>
-    <p>Bill & Melinda Gates Hall, Room 344</p>
+    <p>Cornell University Department of CS</p>
+    <p>Bill & Melinda Gates Hall</p>
     <p> 107 HoyRd, Ithaca, NY 14850, USA</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
