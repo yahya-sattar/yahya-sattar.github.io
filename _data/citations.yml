@@ -1,13 +1,13 @@
 metadata:
-  last_updated: '2025-12-24'
+  last_updated: '2025-12-26'
 papers:
-  fqgk10cAAAAJ:35N4QoGY0k4C:
-    citations: 93
-    title: Non-asymptotic and accurate learning of nonlinear dynamical systems
-    year: '2022'
   fqgk10cAAAAJ:5nxA0vEk-isC:
     citations: 4
     title: Certainty equivalent quadratic control for Markov jump systems
+    year: '2022'
+  fqgk10cAAAAJ:70eg2SAEIzsC:
+    citations: 94
+    title: Non-asymptotic and accurate learning of nonlinear dynamical systems
     year: '2022'
   fqgk10cAAAAJ:GnPB-g6toBAC:
     citations: 25
