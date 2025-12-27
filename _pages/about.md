@@ -27,6 +27,8 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-Postdoctoral Associate, <a href='https://www.cornell.edu/about/'>Cornell University</a> (Department of <a href='https://www.cs.cornell.edu'>Computer Science</a>).  
+Postdoctoral Associate, <a href='https://www.cornell.edu/about/'>Cornell University</a> (<a href='https://www.cs.cornell.edu'>Department of Computer Science</a>).  
 
-I am a Postdoctoral Associate in the Department of Computer Science at Cornell University, Ithaca, New York USA. My research interests revolve broadly around the statistical and algorithmic aspects of sequential learning and decision making in dynamic settings, with applications in robotics, autonomous systems, and broader scientific and engineering domains. More precisely, I study the learning and inference problems arising in Optimal Control, Reinforcement Learning, and Machine Learning, using tools and concepts from Statistical Learning , Optimization , and Control Theory.
+I am a Postdoctoral Associate affiliated with the Department of Computer Science at Cornell University, working with Professor <a href='https://sdean.website'>Sarah Dean</a>. I received my PhD in Electrical Engineering in 2023 under the supervision of Professor <a href='https://sota.engin.umich.edu'>Samet Oymak</a> at University of California Riverside, where my research focused on statistical learning and adaptive control of complex dynamical systems.
+
+My research interests revolve broadly around the statistical and algorithmic aspects of sequential learning and decision making in dynamic settings, with applications in robotics, autonomous systems, and broader scientific and engineering domains. More precisely, I study the learning and inference problems arising in Optimal Control, Reinforcement Learning, and Machine Learning, using tools and concepts from Statistical Learning , Optimization , and Control Theory.
