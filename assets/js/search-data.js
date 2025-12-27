@@ -424,6 +424,21 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_1/";
+            },},{id: "news-paper-published-in-neurips",
+          title: 'Paper published in NeurIPS',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_4/";
+            },},{id: "news-paper-published-in-neurips",
+          title: 'Paper published in NeurIPS',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_5/";
+            },},{id: "news-paper-published-in-neurips",
+          title: 'Paper published in NeurIPS',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_6/";
             },},{id: "news-poster-at-the-workshop-on-theoretical-foundations-of-applied-ai-uw-seattle",
           title: 'Poster at the Workshop on Theoretical Foundations of Applied AI, UW Seattle.',
           description: "",
