@@ -15,7 +15,7 @@ profile:
 #    <p> 107 HoyRd, Ithaca, NY 14850</p>
 
 news: true # includes a list of news items
-news_size: 10
+news_size: 20
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
