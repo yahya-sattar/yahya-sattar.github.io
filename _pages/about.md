@@ -18,15 +18,15 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
-#announcements:
-#  enabled: true # includes a list of news items
-#  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-#  limit: 5 # leave blank to include all the news in the `_news` folder
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
 
-#latest_posts:
-#  enabled: false
-#  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-#  limit: 3 # leave blank to include all the blog posts
+latest_posts:
+  enabled: false
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
 ---
 Postdoctoral Associate, <a href='https://www.cornell.edu/about/'>Cornell University</a> (<a href='https://www.cs.cornell.edu'>Department of Computer Science</a>).  
 
@@ -34,4 +34,4 @@ I am a Postdoctoral Associate affiliated with the Department of Computer Science
 
 My research interests revolve broadly around the statistical and algorithmic aspects of sequential learning and decision making in dynamic settings, with applications in robotics, autonomous systems, and broader scientific and engineering domains. More precisely, I study the learning and inference problems arising in Optimal Control, Reinforcement Learning, and Machine Learning, using tools and concepts from Statistical Learning , Optimization , and Control Theory.
 
-<strong><font color="blue">I am in the academic job market!</font></strong>
+<strong><font color="red">I am in the academic job market!</font></strong>
