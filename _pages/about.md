@@ -35,4 +35,4 @@ I am a Postdoctoral Associate affiliated with the Department of Computer Science
 
 My research interests revolve broadly around the statistical and algorithmic aspects of <strong>sequential learning</strong> and <strong>decision making</strong> in dynamic settings, with applications in robotics, autonomous systems, and broader scientific and engineering domains. More precisely, I study the learning and inference problems arising in <strong><font color="CornflowerBlue">Optimal Control</font></strong>, <strong><font color="CornflowerBlue">Reinforcement Learning</font></strong>, and <strong><font color="CornflowerBlue">Machine Learning</font></strong>, using tools and concepts from <strong>Statistical Learning</strong>, <strong>Optimization</strong>, and <strong>Control Theory</strong>.
 
-<strong><font color="FireBrick">I am in the academic job market!</font></strong>
+<strong><font color="red">I am in the academic job market!</font></strong>
