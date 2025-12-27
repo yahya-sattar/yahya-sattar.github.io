@@ -442,7 +442,16 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_13/";
-            },},{id: "news-paper-published-in-neurips",
+            },},{id: "news-our-paper-titled-pre-trained-large-language-models-learn-hidden-markov-models-in-context-got-published-in-neurips-details-title-pre-trained-large-language-models-learn-hidden-markov-models-in-context-neurips-2025-y-dai-z-gao-y-sattar-s-dean-j-j-sun",
+          title: 'Our Paper titled “Pre-trained Large Language Models Learn Hidden Markov Models In-context” got...',
+          description: "",
+          section: "News",},{id: "news-our-paper-titled-pre-trained-large-language-models-learn-hidden-markov-models-in-context-got-published-in-neurips-details-title-pre-trained-large-language-models-learn-hidden-markov-models-in-context-neurips-2025-y-dai-z-gao-y-sattar-s-dean-j-j-sun",
+          title: 'Our Paper titled “Pre-trained Large Language Models Learn Hidden Markov Models In-context” got...',
+          description: "",
+          section: "News",},{id: "news-our-paper-titled-pre-trained-large-language-models-learn-hidden-markov-models-in-context-got-published-in-neurips-details-title-pre-trained-large-language-models-learn-hidden-markov-models-in-context-neurips-2025-y-dai-z-gao-y-sattar-s-dean-j-j-sun",
+          title: 'Our Paper titled “Pre-trained Large Language Models Learn Hidden Markov Models In-context” got...',
+          description: "",
+          section: "News",},{id: "news-paper-published-in-neurips",
           title: 'Paper published in NeurIPS',
           description: "",
           section: "News",handler: () => {
