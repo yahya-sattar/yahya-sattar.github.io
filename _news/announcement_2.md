@@ -1,14 +1,10 @@
 ---
 layout: post
-title: Submitted a paper to the IEEE Transactions on Automatic Control.
-date: 2025-11-07 16:11:00-0400
-inline: false
+#title: Paper published in NeurIPS
+date: 2025-12-08 15:59:00-0400
+inline: True
 related_posts: false
 ---
 
-<a href="https://arxiv.org/pdf/2111.07018">Identification and Adaptive Control of Markov Jump Systems: Sample Complexity and Regret Bounds</a>
-Y. Sattar†, Z. Du†, D.A. Tarzanagh, L. Balzano, N. Ozay, S. Oymak,
-In submission to the IEEE Transactions on Automatic Control.
-TAC2026
-
----
+[<font color="red"> New! </font>] I am serving as an Area Chair for <a href='https://icml.cc/Conferences/2026'>ICML 2026</a>.
+  
