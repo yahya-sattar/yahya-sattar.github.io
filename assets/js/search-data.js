@@ -419,8 +419,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-our-paper-titled-pre-trained-large-language-models-learn-hidden-markov-models-in-context-got-published-in-neurips-details-title-pre-trained-large-language-models-learn-hidden-markov-models-in-context-neurips-2025-y-dai-z-gao-y-sattar-s-dean-j-j-sun",
-          title: 'Our Paper titled “Pre-trained Large Language Models Learn Hidden Markov Models In-context” got...',
+            },},{id: "news-below-is-a-selected-list-of-my-publications-please-check-my-google-scholar-page-for-an-updated-list-of-my-publications-denotes-equal-contributon",
+          title: 'Below is a selected list of my publications. Please check my google scholar...',
           description: "",
           section: "News",},{id: "news-paper-published-in-neurips",
           title: 'Paper published in NeurIPS',
