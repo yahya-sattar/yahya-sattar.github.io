@@ -452,11 +452,6 @@ ninja.data = [{
           title: 'Paper published in NeurIPS',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_4/";
-            },},{id: "news-paper-published-in-neurips",
-          title: 'Paper published in NeurIPS',
-          description: "",
-          section: "News",handler: () => {
               window.location.href = "/news/announcement_5/";
             },},{id: "news-paper-published-in-neurips",
           title: 'Paper published in NeurIPS',
@@ -478,20 +473,19 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_9/";
-            },},{id: "news-poster-at-the-workshop-on-theoretical-foundations-of-applied-ai-uw-seattle",
-          title: 'Poster at the Workshop on Theoretical Foundations of Applied AI, UW Seattle.',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_3/";
-            },},{id: "news-new-explore-then-commit-for-nonstationary-linear-bandits-with-latent-dynamics-joint-work-with-s-choi-y-jedra-m-fazel-and-s-dean-is-now-on-arxiv-read-arxiv",
+            },},{id: "news-new-explore-then-commit-for-nonstationary-linear-bandits-with-latent-dynamics-joint-work-with-s-choi-y-jedra-m-fazel-and-s-dean-is-now-on-arxiv-paper",
           title: '[ New! ] “Explore-then-Commit for Nonstationary Linear Bandits with Latent Dynamics” joint work...',
           description: "",
-          section: "News",},{id: "news-submitted-a-paper-to-the-ieee-transactions-on-automatic-control",
-          title: 'Submitted a paper to the IEEE Transactions on Automatic Control.',
+          section: "News",},{id: "news-new-pre-trained-large-language-models-learn-to-predict-hidden-markov-models-in-context-joint-work-with-y-dai-z-gao-s-dean-and-j-sun-is-now-accepted-to-neurips-2025-paper",
+          title: '[ New! ] “Pre-trained Large Language Models Learn to Predict Hidden Markov Models...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{
+          section: "News",},{id: "news-new-i-am-serving-as-an-area-chair-for-icml-2026",
+          title: '[ New! ] I am serving as an Area Chair for ICML 2026....',
+          description: "",
+          section: "News",},{id: "news-new-sub-optimality-of-the-separation-principle-for-quadratic-control-from-bilinear-observations-joint-work-with-s-choi-y-jedra-m-fazel-and-s-dean-is-now-accepted-to-cdc-2025-paper",
+          title: '[ New! ] “Sub-optimality of the Separation Principle for Quadratic Control from Bilinear...',
+          description: "",
+          section: "News",},{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
