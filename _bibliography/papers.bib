@@ -14,6 +14,7 @@
   abbr = { JMLR},
   abstract = {We consider the problem of learning a nonlinear dynamical system governed by a nonlinear state equation ht+1 = ϕ(ht, ut; θ) +wt. Here θ is the unknown system dynamics, ht is the state, ut is the input and wt is the additive noise vector. We study gradient based algorithms to learn the system dynamics θ from samples obtained from a single finite trajectory. If the system is run by a stabilizing input policy, then using a mixing-time argument we show that temporally-dependent samples can be approximated by i.i.d. samples. We then develop new guarantees for the uniform convergence of the gradient of the empirical loss induced by these i.i.d. samples. Unlike existing works, our bounds are noise sensitive which allows for learning the ground-truth dynamics with high accuracy and small sample complexity. When combined, our results facilitate efficient learning of a broader class of nonlinear dynamical systems as compared to the prior works. We specialize our guarantees to entrywise nonlinear activations and verify our theory in various numerical experiments.},
   preview={non-asymptotic.png},
+   selected={true},
   doi = {10.48550/arXiv.2002.08538}
 }
 
@@ -25,6 +26,7 @@
   abbr={TAC},
   abstract={Learning how to effectively control unknown dynamical systems is crucial for intelligent autonomous systems. This task becomes a significant challenge when the underlying dynamics are changing with time. Motivated by this challenge, this paper considers the problem of controlling an unknown Markov jump linear system (MJS) to optimize a quadratic objective. By taking a model-based perspective, we consider identification-based adaptive control of MJSs. We first provide a system identification algorithm for MJS to learn the dynamics in each mode as well as the Markov transition matrix, underlying the evolution of the mode switches, from a single trajectory of the system states, inputs, and modes. Through martingale-based arguments, sample complexity of this algorithm is shown to be \mathcal{O}(1/\sqrt{T}). We then propose an adaptive control scheme that performs system identification together with certainty equivalent control to adapt the controllers in an episodic fashion. Combining our sample complexity results with recent perturbation results for certainty equivalent control, we prove that when the episode lengths are appropriately chosen, the proposed adaptive control scheme achieves \mathcal{O}(\sqrt{T}) regret, which can be improved to \mathcal{O}(polylog(T)) with partial knowledge of the system. Our proof strategy introduces innovations to handle Markovian jumps and a weaker notion of stability common in MJSs. Our analysis provides insights into system theoretic quantities that affect learning accuracy and control performance. Numerical simulations are presented to further reinforce these insights.},
   preview={identification.jpg},
+   selected={true},
   doi = {10.48550/arXiv.2111.07018}
 }
 
@@ -50,6 +52,7 @@
   abbr={ TSP},
   abstract = {We study the problem of finding the best linear model that can minimize least-squares loss given a dataset. While this problem is trivial in the low-dimensional regime, it becomes more interesting in high-dimensions where the population minimizer is assumed to lie on a manifold such as sparse vectors. We propose projected gradient descent (PGD) algorithm to estimate the population minimizer in the finite sample regime. We establish linear convergence rate and data-dependent estimation error bounds for PGD. Our contributions include: 1) The results are established for heavier tailed subexponential distributions besides subgaussian and allows for an intercept term. 2) We directly analyze the empirical risk minimization and do not require a realizable model that connects input data and labels. The numerical experiments validate our theoretical results.},
   preview={pgd.png},
+  selected={true},
   doi = {10.1109/TSP.2019.2958673}
 }
 
@@ -92,8 +95,9 @@
   journal = {arXiv preprint arXiv:2501.07652},
   year = {2025},
   abbr={L4DC},
-  abstract={Bilinear dynamical systems are ubiquitous in many different domains and they can also be used to approx imate more general control-affine systems. This motivates the problem of learning bilinear systems from a single trajectory of the system's states and inputs. Under a mild marginal mean square stability assumption, we identify how much data is needed to estimate the unknown bilinear system up to a desired accuracy with high probability. Our sample complexity and statistical error rates are optimal in terms of the trajectory length, the dimensionality of the system and the input size. Our proof technique relies on an application of martingale small-ball condition. This enables us to correctly capture the properties of the problem, specifically our error rates do not deteriorate with increasing instability. Finally, we show that numerical experiments are well-aligned with our theoretical results.},
+  abstract={Bilinear dynamical systems are ubiquitous in many different domains and they can also be used to approximate more general control-affine systems. This motivates the problem of learning bilinear systems from a single trajectory of the system's states and inputs. Under a mild marginal mean square stability assumption, we identify how much data is needed to estimate the unknown bilinear system up to a desired accuracy with high probability. Our sample complexity and statistical error rates are optimal in terms of the trajectory length, the dimensionality of the system and the input size. Our proof technique relies on an application of martingale small-ball condition. This enables us to correctly capture the properties of the problem, specifically our error rates do not deteriorate with increasing instability. Finally, we show that numerical experiments are well-aligned with our theoretical results.},
   preview={finite-sample.jpg},
+  selected={true},
   doi = {10.48550/arXiv.2501.07652}
 }
 
