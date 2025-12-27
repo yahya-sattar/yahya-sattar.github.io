@@ -452,11 +452,6 @@ ninja.data = [{
           title: 'Paper published in NeurIPS',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_6/";
-            },},{id: "news-paper-published-in-neurips",
-          title: 'Paper published in NeurIPS',
-          description: "",
-          section: "News",handler: () => {
               window.location.href = "/news/announcement_7/";
             },},{id: "news-paper-published-in-neurips",
           title: 'Paper published in NeurIPS',
@@ -470,6 +465,9 @@ ninja.data = [{
               window.location.href = "/news/announcement_9/";
             },},{id: "news-new-sub-optimality-of-the-separation-principle-for-quadratic-control-from-bilinear-observations-joint-work-with-s-choi-y-jedra-m-fazel-and-s-dean-is-now-accepted-to-cdc-2025-paper",
           title: '[ New! ] “Sub-optimality of the Separation Principle for Quadratic Control from Bilinear...',
+          description: "",
+          section: "News",},{id: "news-a-case-study-of-low-ranked-self-expressive-structures-in-neural-network-representations-joint-work-with-u-saini-w-shiao-y-dahiya-s-oymak-and-e-papalexakis-is-accepted-oral-to-cpal-2025-paper",
+          title: '“A Case Study of Low Ranked Self-Expressive Structures in Neural Network Representations” joint...',
           description: "",
           section: "News",},{id: "news-new-attended-the-2025-summer-workshop-on-theoretical-foundations-of-applied-ai-at-uw-seattle-hosted-by-ifds-and-presented-a-poster-on-finite-sample-identification-of-partially-observed-bilinear-dynamical-systems-joint-work-with-y-jedra-m-fazel-and-s-dean-paper",
           title: '[ New! ] Attended the 2025 Summer Workshop on Theoretical Foundations of Applied...',
