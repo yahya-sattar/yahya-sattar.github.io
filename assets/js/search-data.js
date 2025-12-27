@@ -419,10 +419,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-below-is-a-selected-list-of-my-publications-please-check-my-google-scholar-page-for-an-updated-list-of-my-publications-denotes-equal-contributon",
-          title: 'Below is a selected list of my publications. Please check my google scholar...',
-          description: "",
-          section: "News",},{id: "news-paper-published-in-neurips",
+            },},{id: "news-paper-published-in-neurips",
           title: 'Paper published in NeurIPS',
           description: "",
           section: "News",handler: () => {
@@ -486,7 +483,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_3/";
-            },},{id: "news-submitted-a-paper-to-the-ieee-transactions-on-automatic-control",
+            },},{id: "news-new-explore-then-commit-for-nonstationary-linear-bandits-with-latent-dynamics-joint-work-with-s-choi-y-jedra-m-fazel-and-s-dean-is-now-on-arxiv-read-arxiv",
+          title: '[ New! ] “Explore-then-Commit for Nonstationary Linear Bandits with Latent Dynamics” joint work...',
+          description: "",
+          section: "News",},{id: "news-submitted-a-paper-to-the-ieee-transactions-on-automatic-control",
           title: 'Submitted a paper to the IEEE Transactions on Automatic Control.',
           description: "",
           section: "News",handler: () => {
