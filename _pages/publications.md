@@ -11,6 +11,10 @@ nav_order: 2
 
 <!-- Bibsearch Feature -->
 
+<p>Updated 2025-12-25</p>
+<p>(* denotes equal contributon; <a href="https://scholar.google.com/citations?user=fqgk10cAAAAJ&hl=en">Google Scholar</a>)</p>
+
+
 {% include bib_search.liquid %}
 
 <div class="publications">
