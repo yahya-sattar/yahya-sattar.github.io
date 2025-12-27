@@ -1,16 +1,9 @@
 ---
 layout: post
-title: Paper published in NeurIPS
-date: 2025-06-08 15:59:00-0400
-inline: false
+#title: Paper published in NeurIPS
+date: 2025-07-20 15:59:00-0400
+inline: True
 related_posts: false
 ---
 
-Our Paper titled "Pre-trained Large Language Models Learn Hidden Markov Models In-context" got published in NeurIPS.
-
----
-
-Details:
-Title <a href="https://arxiv.org/pdf/2506.07298">Pre-trained Large Language Models Learn Hidden Markov Models In-context</a>
-NeurIPS 2025
-Y. Dai, Z. Gao, Y. Sattar, S. Dean, J.J. Sun,
+"<font color=" CornflowerBlue">A Case Study of Low Ranked Self-Expressive Structures in Neural Network Representations</font>" joint work with <b>U. Saini</b>, <b>W. Shiao</b>, <b>Y. Dahiya</b>, <b>S. Oymak</b>, and <b>E. Papalexakis</b> is accepted (<font color=" CornflowerBlue">Oral!</font>) to <strong><font color="FireBrick">CPAL 2025</font></strong>! (<a href='https://openreview.net/pdf?id=vMGYwMFRKf'>paper</a>)
