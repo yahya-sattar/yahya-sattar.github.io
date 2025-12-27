@@ -428,6 +428,26 @@ ninja.data = [{
           title: 'Paper published in NeurIPS',
           description: "",
           section: "News",handler: () => {
+              window.location.href = "/news/announcement_10/";
+            },},{id: "news-paper-published-in-neurips",
+          title: 'Paper published in NeurIPS',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_11/";
+            },},{id: "news-paper-published-in-neurips",
+          title: 'Paper published in NeurIPS',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_12/";
+            },},{id: "news-paper-published-in-neurips",
+          title: 'Paper published in NeurIPS',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_13/";
+            },},{id: "news-paper-published-in-neurips",
+          title: 'Paper published in NeurIPS',
+          description: "",
+          section: "News",handler: () => {
               window.location.href = "/news/announcement_4/";
             },},{id: "news-paper-published-in-neurips",
           title: 'Paper published in NeurIPS',
@@ -439,6 +459,21 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_6/";
+            },},{id: "news-paper-published-in-neurips",
+          title: 'Paper published in NeurIPS',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_7/";
+            },},{id: "news-paper-published-in-neurips",
+          title: 'Paper published in NeurIPS',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_8/";
+            },},{id: "news-paper-published-in-neurips",
+          title: 'Paper published in NeurIPS',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_9/";
             },},{id: "news-poster-at-the-workshop-on-theoretical-foundations-of-applied-ai-uw-seattle",
           title: 'Poster at the Workshop on Theoretical Foundations of Applied AI, UW Seattle.',
           description: "",
