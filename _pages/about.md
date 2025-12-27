@@ -15,7 +15,6 @@ profile:
 #    <p> 107 HoyRd, Ithaca, NY 14850</p>
 
 news: true # includes a list of news items
-news_size: 20
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
@@ -31,8 +30,8 @@ latest_posts:
 ---
 Postdoctoral Associate, <a href='https://www.cornell.edu/about/'>Cornell University</a> (<a href='https://www.cs.cornell.edu'>Department of Computer Science</a>).  
 
-I am a Postdoctoral Associate affiliated with the Department of Computer Science at Cornell University, working with Professor <a href='https://sdean.website'>Sarah Dean</a>. I received my PhD in Electrical Engineering in 2023 under the supervision of Professor <a href='https://sota.engin.umich.edu'>Samet Oymak</a> at University of California Riverside, where my research focused on statistical learning and adaptive control of complex dynamical systems.
+I am a Postdoctoral Associate affiliated with the Department of Computer Science at Cornell University, working with Professor <a href='https://sdean.website'>Sarah Dean</a>. I received my PhD in Electrical Engineering in 2023 under the supervision of Professor <a href='https://sota.engin.umich.edu'>Samet Oymak</a> at University of California Riverside, where my research focused on <a href='https://www.researchgate.net/profile/Yahya-Sattar-3/publication/376076888_thesis/links/6568cf00ce88b870312083ab/thesis.pdf'>statistical learning and adaptive control of complex dynamical systems</a>. 
 
-My research interests revolve broadly around the statistical and algorithmic aspects of sequential learning and decision making in dynamic settings, with applications in robotics, autonomous systems, and broader scientific and engineering domains. More precisely, I study the learning and inference problems arising in Optimal Control, Reinforcement Learning, and Machine Learning, using tools and concepts from Statistical Learning , Optimization , and Control Theory.
+My research interests revolve broadly around the statistical and algorithmic aspects of <strong>sequential learning</strong> and <strong>decision making</strong> in dynamic settings, with applications in robotics, autonomous systems, and broader scientific and engineering domains. More precisely, I study the learning and inference problems arising in <strong><font color="blue-dark">Optimal Control</font></strong>, Reinforcement Learning, and Machine Learning, using tools and concepts from Statistical Learning , Optimization , and Control Theory.
 
 <strong><font color="red">I am in the academic job market!</font></strong>
