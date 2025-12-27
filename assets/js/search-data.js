@@ -449,11 +449,18 @@ ninja.data = [{
           window.open("mailto:%79%73%61%74%74%61%72@%63%6F%72%6E%65%6C%6C.%65%64%75", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("https://github.com/yahya-sattar", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/yahya-sattar-08326bba", "_blank");
         },
       },{
         id: 'social-scholar',
