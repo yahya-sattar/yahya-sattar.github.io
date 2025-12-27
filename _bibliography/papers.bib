@@ -22,7 +22,7 @@
   title = {Identification and Adaptive Control of {Markov} Jump Systems: Sample Complexity and Regret Bounds},
   journal = {arXiv preprint arXiv:2111.07018},
   year = {2021},
-  abbr={ CDC},
+  abbr={TAC},
   abstract={Learning how to effectively control unknown dynamical systems is crucial for intelligent autonomous systems. This task becomes a significant challenge when the underlying dynamics are changing with time. Motivated by this challenge, this paper considers the problem of controlling an unknown Markov jump linear system (MJS) to optimize a quadratic objective. By taking a model-based perspective, we consider identification-based adaptive control of MJSs. We first provide a system identification algorithm for MJS to learn the dynamics in each mode as well as the Markov transition matrix, underlying the evolution of the mode switches, from a single trajectory of the system states, inputs, and modes. Through martingale-based arguments, sample complexity of this algorithm is shown to be \mathcal{O}(1/\sqrt{T}). We then propose an adaptive control scheme that performs system identification together with certainty equivalent control to adapt the controllers in an episodic fashion. Combining our sample complexity results with recent perturbation results for certainty equivalent control, we prove that when the episode lengths are appropriately chosen, the proposed adaptive control scheme achieves \mathcal{O}(\sqrt{T}) regret, which can be improved to \mathcal{O}(polylog(T)) with partial knowledge of the system. Our proof strategy introduces innovations to handle Markovian jumps and a weaker notion of stability common in MJSs. Our analysis provides insights into system theoretic quantities that affect learning accuracy and control performance. Numerical simulations are presented to further reinforce these insights.},
   preview={identification.jpg},
   doi = {10.48550/arXiv.2111.07018}
@@ -34,7 +34,7 @@
   booktitle = {2022 {IEEE} 61st Conference on Decision and Control ({CDC})},
   pages = {6705--6711},
   year = {2022},
-  abbr={ Caltech},
+  abbr={CDC},
   abstract = {Bilinear dynamical systems are ubiquitous in many different domains and they can also be used to approximate more general control-affine systems. This motivates the problem of learning bilinear systems from a single trajectory of the system’s states and inputs. Under a mild marginal mean-square stability assumption, we identify how much data is needed to estimate the unknown bilinear system up to a desired accuracy with high probability. Our sample complexity and statistical error rates are optimal in terms of the trajectory length, the dimensionality of the system and the input size. Our proof technique relies on an application of martingale small-ball condition. This enables us to correctly capture the properties of the problem, specifically our error rates do not deteriorate with increasing instability. Finally, we show that numerical experiments are well-aligned with our theoretical results.},
   preview={finite-sample.jpg},
   doi = {10.1109/CDC45484.2022.9992714}
@@ -91,7 +91,7 @@
   title = {Finite Sample Identification of Partially Observed Bilinear Dynamical Systems},
   journal = {arXiv preprint arXiv:2501.07652},
   year = {2025},
-  abbr={CDC},
+  abbr={L4DC},
   abstract={Bilinear dynamical systems are ubiquitous in many different domains and they can also be used to approx imate more general control-affine systems. This motivates the problem of learning bilinear systems from a single trajectory of the system's states and inputs. Under a mild marginal mean square stability assumption, we identify how much data is needed to estimate the unknown bilinear system up to a desired accuracy with high probability. Our sample complexity and statistical error rates are optimal in terms of the trajectory length, the dimensionality of the system and the input size. Our proof technique relies on an application of martingale small-ball condition. This enables us to correctly capture the properties of the problem, specifically our error rates do not deteriorate with increasing instability. Finally, we show that numerical experiments are well-aligned with our theoretical results.},
   preview={finite-sample.jpg},
   doi = {10.48550/arXiv.2501.07652}
