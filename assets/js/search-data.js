@@ -419,8 +419,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-have-joinded-the-department-of-computer-science-at-cornell-as-a-postdoctoral-associate-starting-fall-2023-i-am-very-fortunate-to-be-working-with-prof-sarah-dean-at-cornell-and-collaborating-closely-with-prof-maryam-fazel-at-uw-seattle",
-          title: 'I have joinded the Department of Computer Science at Cornell as a postdoctoral...',
+            },},{id: "news-i-successfully-defended-my-phd-thesis-titled-the-sample-complexity-of-learning-dynamical-systems-i-am-extremely-grateful-to-my-advisor-prof-samet-oymak-my-collaborators-prof-necmiye-ozay-and-prof-laura-balzano-and-my-thesis-committee-members-prof-amit-k-roy-chowdhury-and-prof-fabio-pasqualetti-thesis",
+          title: 'I successfully defended my PhD thesis titled “The Sample Complexity of Learning Dynamical...',
           description: "",
           section: "News",},{id: "news-i-have-joinded-the-department-of-computer-science-at-cornell-as-a-postdoctoral-associate-starting-fall-2023-i-am-very-fortunate-to-be-working-with-prof-sarah-dean-at-cornell-and-collaborating-closely-with-prof-maryam-fazel-at-uw-seattle",
           title: 'I have joinded the Department of Computer Science at Cornell as a postdoctoral...',
