@@ -1,16 +1,9 @@
 ---
 layout: post
-title: Paper published in NeurIPS
-date: 2025-06-08 15:59:00-0400
-inline: false
+#title: Paper published in NeurIPS
+date: 2024-04-08 15:59:00-0400
+inline: True
 related_posts: false
 ---
 
-Our Paper titled "Pre-trained Large Language Models Learn Hidden Markov Models In-context" got published in NeurIPS.
-
----
-
-Details:
-Title <a href="https://arxiv.org/pdf/2506.07298">Pre-trained Large Language Models Learn Hidden Markov Models In-context</a>
-NeurIPS 2025
-Y. Dai, Z. Gao, Y. Sattar, S. Dean, J.J. Sun,
+"<font color="CornflowerBlue">Random Features Approximation for Control-Affine Systems</font>" joint work with <b>K. Kazemian</b>, and <b>S. Dean</b> is accepted to <strong><font color="FireBrick">L4DC 2024!</font></strong> (<a href='https://arxiv.org/pdf/2406.06514'>paper</a>, <a href='https://github.com/kimzemian/swift_affine_mastery'>github</a>)

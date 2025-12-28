@@ -1,16 +1,9 @@
 ---
 layout: post
-title: Paper published in NeurIPS
-date: 2025-06-08 15:59:00-0400
-inline: false
+#title: Paper published in NeurIPS
+date: 2024-07-10 15:59:00-0400
+inline: True
 related_posts: false
 ---
 
-Our Paper titled "Pre-trained Large Language Models Learn Hidden Markov Models In-context" got published in NeurIPS.
-
----
-
-Details:
-Title <a href="https://arxiv.org/pdf/2506.07298">Pre-trained Large Language Models Learn Hidden Markov Models In-context</a>
-NeurIPS 2025
-Y. Dai, Z. Gao, Y. Sattar, S. Dean, J.J. Sun,
+Attended the <a href='https://olc.orfe.princeton.edu'>Princeton Workshop on Optimization, Learning, and Control</a> at Princeton University, and presented a poster on "<font color="CornflowerBlue">Learning Linear Dynamics from Bilinear Observations</font>" joint work with <b>Y. Jedra</b>, and <b>S. Dean</b>. (<a href='https://arxiv.org/pdf/2409.16499'>paper</a>)
