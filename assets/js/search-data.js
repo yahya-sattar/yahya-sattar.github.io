@@ -419,33 +419,31 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-oral-a-case-study-of-low-ranked-self-expressive-structures-in-neural-network-representations-joint-work-with-u-saini-w-shiao-y-dahiya-s-oymak-and-e-papalexakis-is-accepted-to-cpal-2025-paper",
+            },},{id: "news-i-have-joinded-the-department-of-computer-science-at-cornell-as-a-postdoctoral-associate-starting-fall-2023-i-am-very-fortunate-to-be-working-with-prof-sarah-dean-at-cornell-and-collaborating-closely-with-prof-maryam-fazel-at-uw-seattle",
+          title: 'I have joinded the Department of Computer Science at Cornell as a postdoctoral...',
+          description: "",
+          section: "News",},{id: "news-i-have-joinded-the-department-of-computer-science-at-cornell-as-a-postdoctoral-associate-starting-fall-2023-i-am-very-fortunate-to-be-working-with-prof-sarah-dean-at-cornell-and-collaborating-closely-with-prof-maryam-fazel-at-uw-seattle",
+          title: 'I have joinded the Department of Computer Science at Cornell as a postdoctoral...',
+          description: "",
+          section: "News",},{id: "news-random-features-approximation-for-control-affine-systems-joint-work-with-k-kazemian-and-s-dean-is-accepted-to-l4dc-2024-paper-github",
+          title: '“Random Features Approximation for Control-Affine Systems” joint work with K. Kazemian, and S....',
+          description: "",
+          section: "News",},{id: "news-attended-the-northeast-systems-and-control-workshop-at-university-of-pennsylvania-and-presented-a-poster-on-learning-linear-dynamics-from-bilinear-observations-joint-work-with-y-jedra-and-s-dean-paper",
+          title: 'Attended the Northeast Systems and Control Workshop at University of Pennsylvania, and presented...',
+          description: "",
+          section: "News",},{id: "news-attended-the-princeton-workshop-on-optimization-learning-and-control-at-princeton-university-and-presented-a-poster-on-learning-linear-dynamics-from-bilinear-observations-joint-work-with-y-jedra-and-s-dean-paper",
+          title: 'Attended the Princeton Workshop on Optimization, Learning, and Control at Princeton University, and...',
+          description: "",
+          section: "News",},{id: "news-learning-linear-dynamics-from-bilinear-observations-joint-work-with-y-jedra-and-s-dean-is-accepted-to-acc-2025-paper",
+          title: '“Learning Linear Dynamics from Bilinear Observations” joint work with Y. Jedra, and S....',
+          description: "",
+          section: "News",},{id: "news-oral-a-case-study-of-low-ranked-self-expressive-structures-in-neural-network-representations-joint-work-with-u-saini-w-shiao-y-dahiya-s-oymak-and-e-papalexakis-is-accepted-to-cpal-2025-paper",
           title: '[ Oral! ] “A Case Study of Low Ranked Self-Expressive Structures in Neural...',
           description: "",
           section: "News",},{id: "news-oral-best-paper-award-nominee-finite-sample-identification-of-partially-observed-bilinear-dynamical-systems-joint-work-with-y-jedra-m-fazel-and-s-dean-is-accepted-to-l4dc-2025-paper",
           title: '[ Oral! + Best paper award nominee! ] “Finite Sample Identification of Partially...',
           description: "",
-          section: "News",},{id: "news-paper-published-in-neurips",
-          title: 'Paper published in NeurIPS',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_10/";
-            },},{id: "news-paper-published-in-neurips",
-          title: 'Paper published in NeurIPS',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_11/";
-            },},{id: "news-paper-published-in-neurips",
-          title: 'Paper published in NeurIPS',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_12/";
-            },},{id: "news-paper-published-in-neurips",
-          title: 'Paper published in NeurIPS',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_13/";
-            },},{id: "news-our-paper-titled-pre-trained-large-language-models-learn-hidden-markov-models-in-context-got-published-in-neurips-details-title-pre-trained-large-language-models-learn-hidden-markov-models-in-context-neurips-2025-y-dai-z-gao-y-sattar-s-dean-j-j-sun",
+          section: "News",},{id: "news-our-paper-titled-pre-trained-large-language-models-learn-hidden-markov-models-in-context-got-published-in-neurips-details-title-pre-trained-large-language-models-learn-hidden-markov-models-in-context-neurips-2025-y-dai-z-gao-y-sattar-s-dean-j-j-sun",
           title: 'Our Paper titled “Pre-trained Large Language Models Learn Hidden Markov Models In-context” got...',
           description: "",
           section: "News",},{id: "news-our-paper-titled-pre-trained-large-language-models-learn-hidden-markov-models-in-context-got-published-in-neurips-details-title-pre-trained-large-language-models-learn-hidden-markov-models-in-context-neurips-2025-y-dai-z-gao-y-sattar-s-dean-j-j-sun",
@@ -454,26 +452,16 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-titled-pre-trained-large-language-models-learn-hidden-markov-models-in-context-got-published-in-neurips-details-title-pre-trained-large-language-models-learn-hidden-markov-models-in-context-neurips-2025-y-dai-z-gao-y-sattar-s-dean-j-j-sun",
           title: 'Our Paper titled “Pre-trained Large Language Models Learn Hidden Markov Models In-context” got...',
           description: "",
-          section: "News",},{id: "news-paper-published-in-neurips",
-          title: 'Paper published in NeurIPS',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_8/";
-            },},{id: "news-paper-published-in-neurips",
-          title: 'Paper published in NeurIPS',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_9/";
-            },},{id: "news-new-sub-optimality-of-the-separation-principle-for-quadratic-control-from-bilinear-observations-joint-work-with-s-choi-y-jedra-m-fazel-and-s-dean-is-now-accepted-to-cdc-2025-paper",
+          section: "News",},{id: "news-new-sub-optimality-of-the-separation-principle-for-quadratic-control-from-bilinear-observations-joint-work-with-s-choi-y-jedra-m-fazel-and-s-dean-is-now-accepted-to-cdc-2025-paper",
           title: '[ New! ] “Sub-optimality of the Separation Principle for Quadratic Control from Bilinear...',
           description: "",
           section: "News",},{id: "news-new-attended-the-2025-summer-workshop-on-theoretical-foundations-of-applied-ai-at-uw-seattle-hosted-by-ifds-and-presented-a-poster-on-finite-sample-identification-of-partially-observed-bilinear-dynamical-systems-joint-work-with-y-jedra-m-fazel-and-s-dean-paper",
           title: '[ New! ] Attended the 2025 Summer Workshop on Theoretical Foundations of Applied...',
           description: "",
-          section: "News",},{id: "news-new-pre-trained-large-language-models-learn-to-predict-hidden-markov-models-in-context-joint-work-with-y-dai-z-gao-s-dean-and-j-sun-is-now-accepted-to-neurips-2025-paper",
+          section: "News",},{id: "news-new-pre-trained-large-language-models-learn-to-predict-hidden-markov-models-in-context-joint-work-with-y-dai-z-gao-s-dean-and-j-sun-is-now-accepted-to-neurips-2025-paper-github",
           title: '[ New! ] “Pre-trained Large Language Models Learn to Predict Hidden Markov Models...',
           description: "",
-          section: "News",},{id: "news-new-explore-then-commit-for-nonstationary-linear-bandits-with-latent-dynamics-joint-work-with-s-choi-y-jedra-m-fazel-and-s-dean-is-now-on-arxiv-paper",
+          section: "News",},{id: "news-new-explore-then-commit-for-nonstationary-linear-bandits-with-latent-dynamics-joint-work-with-s-choi-y-jedra-m-fazel-and-s-dean-is-now-on-arxiv-paper-github",
           title: '[ New! ] “Explore-then-Commit for Nonstationary Linear Bandits with Latent Dynamics” joint work...',
           description: "",
           section: "News",},{id: "news-new-i-am-serving-as-an-area-chair-for-icml-2026",
