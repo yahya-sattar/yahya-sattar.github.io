@@ -52,12 +52,12 @@
   pages = {1--49},
   year = {2022},
   abbr = { JMLR},
-  abstract = {We consider the problem of learning a nonlinear dynamical system governed by a nonlinear state equation h_{t+1} = phi(h_t, u_t; theta) + w_t. 
-  Here theta is the unknown system dynamics, ht is the state, ut is the input and wt is the additive noise vector. We study gradient based algorithms 
-  to learn the system dynamics θ from samples obtained from a single finite trajectory. If the system is run by a stabilizing input policy, 
-  then using a mixing-time argument we show that temporally-dependent samples can be approximated by i.i.d. samples. We then develop new 
-  guarantees for the uniform convergence of the gradient of the empirical loss induced by these i.i.d. samples. Unlike existing works, our 
-  bounds are noise sensitive which allows for learning the ground-truth dynamics with high accuracy and small sample complexity. When combined, 
+  abstract = {We consider the problem of learning a nonlinear dynamical system governed by a nonlinear state equation 
+  \h_{t+1} = \phi(h_t, u_t; \theta) + w_t. Here \theta is the unknown system dynamics, ht is the state, ut is the input and wt is the additive 
+  noise vector. We study gradient based algorithms to learn the system dynamics θ from samples obtained from a single finite trajectory. If the system is 
+  run by a stabilizing input policy, then using a mixing-time argument we show that temporally-dependent samples can be approximated by i.i.d. samples. 
+  We then develop new guarantees for the uniform convergence of the gradient of the empirical loss induced by these i.i.d. samples. Unlike existing works, 
+  our bounds are noise sensitive which allows for learning the ground-truth dynamics with high accuracy and small sample complexity. When combined, 
   our results facilitate efficient learning of a broader class of nonlinear dynamical systems as compared to the prior works. We specialize 
   our guarantees to entrywise nonlinear activations and verify our theory in various numerical experiments.},
   preview={JMLR_2022.png},
@@ -76,10 +76,10 @@
   Markov jump linear system (MJS) to optimize a quadratic objective. By taking a model-based perspective, we consider identification-based adaptive 
   control of MJSs. We first provide a system identification algorithm for MJS to learn the dynamics in each mode as well as the Markov transition matrix, 
   underlying the evolution of the mode switches, from a single trajectory of the system states, inputs, and modes. Through martingale-based arguments, 
-  sample complexity of this algorithm is shown to be \mathcal{O}(1/\sqrt{T}). We then propose an adaptive control scheme that performs system 
+  sample complexity of this algorithm is shown to be O(1/\sqrt{T}). We then propose an adaptive control scheme that performs system 
   identification together with certainty equivalent control to adapt the controllers in an episodic fashion. Combining our sample complexity results 
   with recent perturbation results for certainty equivalent control, we prove that when the episode lengths are appropriately chosen, the proposed 
-  adaptive control scheme achieves \mathcal{O}(\sqrt{T}) regret, which can be improved to \mathcal{O}(polylog(T)) with partial knowledge of the system. 
+  adaptive control scheme achieves O(\sqrt{T}) regret, which can be improved to O(polylog(T)) with partial knowledge of the system. 
   Our proof strategy introduces innovations to handle Markovian jumps and a weaker notion of stability common in MJSs. Our analysis provides insights 
   into system theoretic quantities that affect learning accuracy and control performance. Numerical simulations are presented to further reinforce 
   these insights.},
@@ -96,7 +96,12 @@
   pages = {818--829},
   year = {2020},
   abbr={ TSP},
-  abstract = {We study the problem of finding the best linear model that can minimize least-squares loss given a dataset. While this problem is trivial in the low-dimensional regime, it becomes more interesting in high-dimensions where the population minimizer is assumed to lie on a manifold such as sparse vectors. We propose projected gradient descent (PGD) algorithm to estimate the population minimizer in the finite sample regime. We establish linear convergence rate and data-dependent estimation error bounds for PGD. Our contributions include: 1) The results are established for heavier tailed subexponential distributions besides subgaussian and allows for an intercept term. 2) We directly analyze the empirical risk minimization and do not require a realizable model that connects input data and labels. The numerical experiments validate our theoretical results.},
+  abstract = {We study the problem of finding the best linear model that can minimize least-squares loss given a dataset. While this problem is trivial 
+  in the low-dimensional regime, it becomes more interesting in high-dimensions where the population minimizer is assumed to lie on a manifold such as 
+  sparse vectors. We propose projected gradient descent (PGD) algorithm to estimate the population minimizer in the finite sample regime. We establish 
+  linear convergence rate and data-dependent estimation error bounds for PGD. Our contributions include: 1) The results are established for heavier 
+  tailed subexponential distributions besides subgaussian and allows for an intercept term. 2) We directly analyze the empirical risk minimization and 
+  do not require a realizable model that connects input data and labels. The numerical experiments validate our theoretical results.},
   preview={TSP_2020.png},
   selected={true},
   doi = {10.1109/TSP.2019.2958673}
@@ -108,7 +113,15 @@
   journal = {arXiv preprint arXiv:2510.16208},
   year = {2025},
   abbr={ AISTATS},
-  abstract={We study a nonstationary bandit problem where rewards depend on both actions and latent states, the latter governed by unknown linear dynamics. Crucially, the state dynamics also depend on the actions, resulting in tension between short-term and long-term rewards. We propose an explore-then-commit algorithm for a finite horizon T. During the exploration phase, random Rademacher actions enable estimation of the Markov parameters of the linear dynamics, which characterize the action-reward relationship. In the commit phase, the algorithm uses the estimated parameters to design an optimized action sequence for long-term reward. Our proposed algorithm achieves \tilde{\mathcal{O}}(T^{2/3}) regret. Our analysis handles two key challenges: learning from temporally correlated rewards, and designing action sequences with optimal long-term reward. We address the first challenge by providing near-optimal sample complexity and error bounds for system identification using bilinear rewards. We address the second challenge by proving an equivalence with indefinite quadratic optimization over a hypercube, a known NP-hard problem. We provide a sub-optimality guarantee for this problem, enabling our regret upper bound. Lastly, we propose a semidefinite relaxation with Goemans-Williamson rounding as a practical approach.},
+  abstract={We study a nonstationary bandit problem where rewards depend on both actions and latent states, the latter governed by unknown linear 
+  dynamics. Crucially, the state dynamics also depend on the actions, resulting in tension between short-term and long-term rewards. We propose an 
+  explore-then-commit algorithm for a finite horizon T. During the exploration phase, random Rademacher actions enable estimation of the Markov 
+  parameters of the linear dynamics, which characterize the action-reward relationship. In the commit phase, the algorithm uses the estimated parameters 
+  to design an optimized action sequence for long-term reward. Our proposed algorithm achieves O(T^{2/3}) regret. Our analysis handles two key 
+  challenges: learning from temporally correlated rewards, and designing action sequences with optimal long-term reward. We address the first challenge 
+  by providing near-optimal sample complexity and error bounds for system identification using bilinear rewards. We address the second challenge by 
+  proving an equivalence with indefinite quadratic optimization over a hypercube, a known NP-hard problem. We provide a sub-optimality guarantee for 
+  this problem, enabling our regret upper bound. Lastly, we propose a semidefinite relaxation with Goemans-Williamson rounding as a practical approach.},
   preview={AISTATS_2025.png},
   selected={true},
   doi = {10.48550/arXiv.2510.16208}
@@ -183,7 +196,7 @@
   MJS control is somewhat lacking. Motivated by this, we investigate robustness aspects of certainty equivalent model-based optimal control for MJS 
   with quadratic cost function. Given the uncertainty in the system matrices and in the Markov transition matrix is bounded by and respectively, 
   robustness results are established for (i) the solution to coupled Riccati equations and (ii) the optimal cost, by providing explicit perturbation 
-  bounds which decay as O( + )and O(( + )2) respectively.},
+  bounds which decay as O(\epsilon + \eta)and O((\epsilon + \eta)2) respectively.},
   preview={ACC_2022b.png},
   doi = {10.48550/arXiv.2105.12358}
 }
@@ -269,7 +282,13 @@
   pages = {156--161},
   year = {2021},
   abbr={ ICoDT2},
-  abstract={Human-activity recognition has gained significant attention recently within the computer vision and machine learning community, due to its applications in diverse fields such as health, entertainment, visual surveillance and sports analytics. An important sub-category of human-activity recognition is group activity recognition (GAR) where a group of individuals is involved in an activity. The main challenge in such recognition tasks is to learn the relationship between a group of individuals in a scene and its evolution over time. Recently, many techniques based on deep networks and graphical models have been proposed for group activity recognition. In this paper, we critically analyze the state-of-the-art (SOTA) techniques for group activity recognition. We propose a new taxonomy for categorizing the SOTA techniques conducted in the field of group activity recognition and divide the existing literature into different subcategories. We also identify the available datasets and the existing research challenges for GAR.},
+  abstract={Human-activity recognition has gained significant attention recently within the computer vision and machine learning community, due to its 
+  applications in diverse fields such as health, entertainment, visual surveillance and sports analytics. An important sub-category of human-activity 
+  recognition is group activity recognition (GAR) where a group of individuals is involved in an activity. The main challenge in such recognition tasks 
+  is to learn the relationship between a group of individuals in a scene and its evolution over time. Recently, many techniques based on deep networks 
+  and graphical models have been proposed for group activity recognition. In this paper, we critically analyze the state-of-the-art (SOTA) techniques 
+  for group activity recognition. We propose a new taxonomy for categorizing the SOTA techniques conducted in the field of group activity recognition 
+  and divide the existing literature into different subcategories. We also identify the available datasets and the existing research challenges for GAR.},
   preview={ICODT_2021.png},
   doi = {10.1109/ICDF2T53092.2021.9557740}
 }
@@ -281,9 +300,9 @@
   pages = {1--5},
   year = {2019},
   abbr={ CAMSAP},
-  abstract={We propose a framework for learning discrete time stabilizable systems governed by nonlinear state equation \pmbht+1=φ(\pmbht, \pmbut;θ*). 
-  Here θ* is the possibly unknown system dynamics, \pmbht is the state and \pmbut is the input vector. We utilize gradient descent to learn the system 
-  dynamics θ* from a finite trajectory. We show that gradient descent linearly converges to the ground truth dynamics with good sample complexity when 
+  abstract={We propose a framework for learning discrete time stabilizable systems governed by nonlinear state equation h_{t+1} = \phi(h_t, u_t; \theta). 
+  Here \theta is the possibly unknown system dynamics, h_t is the state and u_t is the input vector. We utilize gradient descent to learn the system 
+  dynamics \theta from a finite trajectory. We show that gradient descent linearly converges to the ground truth dynamics with good sample complexity when 
   system satisfies certain properties. The proposed framework allows for simultaneously learning and controlling the system and establishes a simple 
   connection between classical supervised learning and temporally-dependent problems via mixing-time arguments. Numerical experiments verify our 
   theoretical findings.},
@@ -303,9 +322,9 @@
   of parameters of the Dirac functions using a finite number of observations of the bandlimited signal. In comparison to existing techniques, the 
   proposed method enables more accurate reconstruction primarily due to the better conditioning of systems involved in the recovery of parameters. 
   In order to reconstruct K Diracs on the sphere, the proposed method requires samples of the signal bandlimited in the spherical harmonic (SH) domain 
-  at SH degree equal or greater than K + √K + 1/4 - 1/2. In comparison to the existing state-of-the-art technique, the required bandlimit, and 
+  at SH degree equal or greater than K + \sqrt{K + 1/4} - 1/2. In comparison to the existing state-of-the-art technique, the required bandlimit, and 
   consequently the number of samples, of the proposed method is (approximately) the same. We also conduct numerical experiments to demonstrate that 
-  the proposed technique is more accurate than the existing methods by a factor of 107 or more for 2 ≤ K ≤ 20.},
+  the proposed technique is more accurate than the existing methods by a factor of 107 or more for 2 \leq K \leq 20.},
   preview={ICASSP_2019.png},
   doi = {10.1109/ICASSP.2019.8683634}
 }
