@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Paper published in NeurIPS
-date: 2025-05-30 15:59:00-0400
+date: 2022-05-30 15:59:00-0400
 inline: True
 related_posts: false
 ---
