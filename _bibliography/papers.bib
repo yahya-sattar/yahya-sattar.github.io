@@ -19,7 +19,7 @@
   in-context learning in LLMs and establishes its potential as a powerful tool for uncovering hidden structure in complex scientific data.},
   preview={NeurIPS_2025.png},
   selected={true},
-  doi = {10.48550/arXiv.2506.07298}
+  pdf = {https://openreview.net/pdf?id=btBqWTbf6q}
 }
 
 
@@ -52,8 +52,8 @@
   year = {2022},
   abbr = { JMLR},
   abstract = {We consider the problem of learning a nonlinear dynamical system governed by a nonlinear state equation 
-  \h_{t+1} = \phi(h_t, u_t; \theta) + w_t. Here \theta is the unknown system dynamics, ht is the state, ut is the input and wt is the additive 
-  noise vector. We study gradient based algorithms to learn the system dynamics θ from samples obtained from a single finite trajectory. If the system is 
+  h_{t+1} = \phi(h_t, u_t; \theta) + w_t. Here \theta  is the unknown system dynamics, h_t is the state, u_t is the input and w_t is the additive 
+  noise vector. We study gradient based algorithms to learn the system dynamics \theta  from samples obtained from a single finite trajectory. If the system is 
   run by a stabilizing input policy, then using a mixing-time argument we show that temporally-dependent samples can be approximated by i.i.d. samples. 
   We then develop new guarantees for the uniform convergence of the gradient of the empirical loss induced by these i.i.d. samples. Unlike existing works, 
   our bounds are noise sensitive which allows for learning the ground-truth dynamics with high accuracy and small sample complexity. When combined, 
@@ -75,10 +75,10 @@
   Markov jump linear system (MJS) to optimize a quadratic objective. By taking a model-based perspective, we consider identification-based adaptive 
   control of MJSs. We first provide a system identification algorithm for MJS to learn the dynamics in each mode as well as the Markov transition matrix, 
   underlying the evolution of the mode switches, from a single trajectory of the system states, inputs, and modes. Through martingale-based arguments, 
-  sample complexity of this algorithm is shown to be O(1/\sqrt{T}). We then propose an adaptive control scheme that performs system 
+  sample complexity of this algorithm is shown to be O(1/sqrt(T)). We then propose an adaptive control scheme that performs system 
   identification together with certainty equivalent control to adapt the controllers in an episodic fashion. Combining our sample complexity results 
   with recent perturbation results for certainty equivalent control, we prove that when the episode lengths are appropriately chosen, the proposed 
-  adaptive control scheme achieves O(\sqrt{T}) regret, which can be improved to O(polylog(T)) with partial knowledge of the system. 
+  adaptive control scheme achieves O(sqrt(T)) regret, which can be improved to O(polylog(T)) with partial knowledge of the system. 
   Our proof strategy introduces innovations to handle Markovian jumps and a weaker notion of stability common in MJSs. Our analysis provides insights 
   into system theoretic quantities that affect learning accuracy and control performance. Numerical simulations are presented to further reinforce 
   these insights.},
@@ -152,7 +152,7 @@
   year = {2022},
   abbr={CDC},
   abstract = {Bilinear dynamical systems are ubiquitous in many different domains and they can also be used to approximate more general control-affine 
-  systems. This motivates the problem of learning bilinear systems from a single trajectory of the system’s states and inputs. Under a mild marginal 
+  systems. This motivates the problem of learning bilinear systems from a single trajectory of the systems states and inputs. Under a mild marginal 
   mean-square stability assumption, we identify how much data is needed to estimate the unknown bilinear system up to a desired accuracy with high 
   probability. Our sample complexity and statistical error rates are optimal in terms of the trajectory length, the dimensionality of the system and 
   the input size. Our proof technique relies on an application of martingale small-ball condition. This enables us to correctly capture the properties 
@@ -300,8 +300,8 @@
   year = {2019},
   abbr={ CAMSAP},
   abstract={We propose a framework for learning discrete time stabilizable systems governed by nonlinear state equation h_{t+1} = \phi(h_t, u_t; \theta). 
-  Here \theta is the possibly unknown system dynamics, h_t is the state and u_t is the input vector. We utilize gradient descent to learn the system 
-  dynamics \theta from a finite trajectory. We show that gradient descent linearly converges to the ground truth dynamics with good sample complexity when 
+  Here \theta  is the possibly unknown system dynamics, h_t is the state and u_t is the input vector. We utilize gradient descent to learn the system 
+  dynamics \theta  from a finite trajectory. We show that gradient descent linearly converges to the ground truth dynamics with good sample complexity when 
   system satisfies certain properties. The proposed framework allows for simultaneously learning and controlling the system and establishes a simple 
   connection between classical supervised learning and temporally-dependent problems via mixing-time arguments. Numerical experiments verify our 
   theoretical findings.},
@@ -321,7 +321,7 @@
   of parameters of the Dirac functions using a finite number of observations of the bandlimited signal. In comparison to existing techniques, the 
   proposed method enables more accurate reconstruction primarily due to the better conditioning of systems involved in the recovery of parameters. 
   In order to reconstruct K Diracs on the sphere, the proposed method requires samples of the signal bandlimited in the spherical harmonic (SH) domain 
-  at SH degree equal or greater than K + \sqrt{K + 1/4} - 1/2. In comparison to the existing state-of-the-art technique, the required bandlimit, and 
+  at SH degree equal or greater than K + sqrt(K + 1/4) - 1/2. In comparison to the existing state-of-the-art technique, the required bandlimit, and 
   consequently the number of samples, of the proposed method is (approximately) the same. We also conduct numerical experiments to demonstrate that 
   the proposed technique is more accurate than the existing methods by a factor of 107 or more for 2 \leq K \leq 20.},
   preview={ICASSP_2019.png},
@@ -336,10 +336,10 @@
   year = {2017},
   abbr={ ICASSP},
   abstract={We develop a robust method for the accurate reconstruction of non-bandlimited finite rate of innovation signals composed of finite number 
-  of Diracs. For the recovery of parameters of K Diracs defining the signal, the proposed method requires more than (K + √K)2 samples of the signal 
+  of Diracs. For the recovery of parameters of K Diracs defining the signal, the proposed method requires more than (K + sqrt(K))^2 samples of the signal 
   band-limited in harmonic domain such that the spherical harmonic transform can be computed using the samples. In comparison with the existing methods, 
   the proposed method is robust in a sense that it does not require all Diracs to have distinct colatitude parameter. We first estimate the N number of 
-  Diracs which do not have distinct colatitude parameter. Once N is determined, the proposed method requires, at most, N2+N/2 + 1 unique and 
+  Diracs which do not have distinct colatitude parameter. Once N is determined, the proposed method requires, at most, (N^2+N)/2 + 1 unique and 
   intelligently chosen rotations of the signal to recover all parameters accurately. We also provide illustrations to demonstrate the accurate 
   reconstruction using the proposed method.},
   preview={ICASSP_2017.png},
