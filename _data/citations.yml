@@ -1,6 +1,10 @@
 metadata:
-  last_updated: '2025-12-26'
+  last_updated: '2025-12-31'
 papers:
+  fqgk10cAAAAJ:2P1L_qKh6hAC:
+    citations: 0
+    title: Pre-trained Large Language Models Learn to Predict Hidden Markov Models In-context
+    year: Unknown Year
   fqgk10cAAAAJ:5nxA0vEk-isC:
     citations: 4
     title: Certainty equivalent quadratic control for Markov jump systems
@@ -73,10 +77,10 @@ papers:
     citations: 10
     title: Exploring weight importance and hessian bias in model pruning
     year: '2020'
-  fqgk10cAAAAJ:lSLTfruPkqcC:
-    citations: 0
-    title: Pre-trained Large Language Models Learn to Predict Hidden Markov Models In-context
-    year: Unknown Year
+  fqgk10cAAAAJ:ldfaerwXgEUC:
+    citations: 1
+    title: Pre-trained Large Language Models Learn Hidden Markov Models In-context
+    year: '2025'
   fqgk10cAAAAJ:ns9cj8rnVeAC:
     citations: 3
     title: Learning linear dynamics from bilinear observations
@@ -89,7 +93,3 @@ papers:
     citations: 2
     title: Robust reconstruction of spherical signals with finite rate of innovation
     year: '2017'
-  fqgk10cAAAAJ:vV6vV6tmYwMC:
-    citations: 0
-    title: Pre-trained Large Language Models Learn Hidden Markov Models In-context
-    year: '2025'
