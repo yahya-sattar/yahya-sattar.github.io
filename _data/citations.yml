@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2025-12-31'
+  last_updated: '2026-01-12'
 papers:
   fqgk10cAAAAJ:2P1L_qKh6hAC:
     citations: 0
@@ -10,7 +10,7 @@ papers:
     title: Certainty equivalent quadratic control for Markov jump systems
     year: '2022'
   fqgk10cAAAAJ:70eg2SAEIzsC:
-    citations: 94
+    citations: 95
     title: Non-asymptotic and accurate learning of nonlinear dynamical systems
     year: '2022'
   fqgk10cAAAAJ:GnPB-g6toBAC:
@@ -38,7 +38,7 @@ papers:
     title: Explore-then-Commit for Nonstationary Linear Bandits with Latent Dynamics
     year: '2025'
   fqgk10cAAAAJ:Tyk-4Ss8FVUC:
-    citations: 3
+    citations: 4
     title: Estimation of Groundwater Storage Variations in Indus River Basin Using Grace Data
     year: '2021'
   fqgk10cAAAAJ:UeHWp8X0CEIC:
@@ -74,7 +74,7 @@ papers:
     title: A Case Study of Low Ranked Self-Expressive Structures in Neural Network Representations
     year: '2025'
   fqgk10cAAAAJ:iH-uZ7U-co4C:
-    citations: 10
+    citations: 9
     title: Exploring weight importance and hessian bias in model pruning
     year: '2020'
   fqgk10cAAAAJ:ldfaerwXgEUC:
