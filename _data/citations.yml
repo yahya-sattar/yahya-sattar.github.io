@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-01-12'
+  last_updated: '2026-01-19'
 papers:
   fqgk10cAAAAJ:2P1L_qKh6hAC:
     citations: 0
     title: Pre-trained Large Language Models Learn to Predict Hidden Markov Models In-context
     year: Unknown Year
   fqgk10cAAAAJ:5nxA0vEk-isC:
-    citations: 4
+    citations: 5
     title: Certainty equivalent quadratic control for Markov jump systems
     year: '2022'
   fqgk10cAAAAJ:70eg2SAEIzsC:
@@ -74,7 +74,7 @@ papers:
     title: A Case Study of Low Ranked Self-Expressive Structures in Neural Network Representations
     year: '2025'
   fqgk10cAAAAJ:iH-uZ7U-co4C:
-    citations: 9
+    citations: 10
     title: Exploring weight importance and hessian bias in model pruning
     year: '2020'
   fqgk10cAAAAJ:ldfaerwXgEUC:
