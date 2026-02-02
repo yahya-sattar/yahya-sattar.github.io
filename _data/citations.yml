@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-01-19'
+  last_updated: '2026-02-02'
 papers:
   fqgk10cAAAAJ:2P1L_qKh6hAC:
     citations: 0
@@ -10,11 +10,11 @@ papers:
     title: Certainty equivalent quadratic control for Markov jump systems
     year: '2022'
   fqgk10cAAAAJ:70eg2SAEIzsC:
-    citations: 95
+    citations: 93
     title: Non-asymptotic and accurate learning of nonlinear dynamical systems
     year: '2022'
   fqgk10cAAAAJ:GnPB-g6toBAC:
-    citations: 25
+    citations: 26
     title: Finite sample identification of bilinear dynamical systems
     year: '2022'
   fqgk10cAAAAJ:HDshCWvjkbEC:
@@ -25,6 +25,10 @@ papers:
     citations: 5
     title: Finite sample identification of partially observed bilinear dynamical systems
     year: '2025'
+  fqgk10cAAAAJ:M05iB0D1s5AC:
+    citations: 0
+    title: Exploring Weight Importance and Hessian Bias in Model Pruning
+    year: '2020'
   fqgk10cAAAAJ:M3NEmzRMIkIC:
     citations: 3
     title: Random features approximation for control-affine systems
@@ -50,7 +54,7 @@ papers:
     title: Certainty equivalent quadratic control for markov jump systems
     year: '2021'
   fqgk10cAAAAJ:YFjsv_pBGBYC:
-    citations: 28
+    citations: 27
     title: 'Identification and adaptive control of markov jump systems: Sample complexity and regret bounds'
     year: '2021'
   fqgk10cAAAAJ:YsMSGLbcyi4C:
@@ -78,7 +82,7 @@ papers:
     title: Exploring weight importance and hessian bias in model pruning
     year: '2020'
   fqgk10cAAAAJ:ldfaerwXgEUC:
-    citations: 1
+    citations: 2
     title: Pre-trained Large Language Models Learn Hidden Markov Models In-context
     year: '2025'
   fqgk10cAAAAJ:ns9cj8rnVeAC:
