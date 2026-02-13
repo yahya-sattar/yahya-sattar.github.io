@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-02'
+  last_updated: '2026-02-13'
 papers:
   fqgk10cAAAAJ:2P1L_qKh6hAC:
     citations: 0
@@ -54,7 +54,7 @@ papers:
     title: Certainty equivalent quadratic control for markov jump systems
     year: '2021'
   fqgk10cAAAAJ:YFjsv_pBGBYC:
-    citations: 27
+    citations: 28
     title: 'Identification and adaptive control of markov jump systems: Sample complexity and regret bounds'
     year: '2021'
   fqgk10cAAAAJ:YsMSGLbcyi4C:
@@ -78,7 +78,7 @@ papers:
     title: A Case Study of Low Ranked Self-Expressive Structures in Neural Network Representations
     year: '2025'
   fqgk10cAAAAJ:iH-uZ7U-co4C:
-    citations: 10
+    citations: 9
     title: Exploring weight importance and hessian bias in model pruning
     year: '2020'
   fqgk10cAAAAJ:ldfaerwXgEUC:
