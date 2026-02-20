@@ -1,16 +1,16 @@
 metadata:
-  last_updated: '2026-02-13'
+  last_updated: '2026-02-20'
 papers:
   fqgk10cAAAAJ:2P1L_qKh6hAC:
     citations: 0
     title: Pre-trained Large Language Models Learn to Predict Hidden Markov Models In-context
     year: Unknown Year
   fqgk10cAAAAJ:5nxA0vEk-isC:
-    citations: 5
-    title: Certainty equivalent quadratic control for Markov jump systems
+    citations: 4
+    title: Certainty equivalent quadratic control for markov jump systems
     year: '2022'
   fqgk10cAAAAJ:70eg2SAEIzsC:
-    citations: 93
+    citations: 91
     title: Non-asymptotic and accurate learning of nonlinear dynamical systems
     year: '2022'
   fqgk10cAAAAJ:GnPB-g6toBAC:
@@ -18,7 +18,7 @@ papers:
     title: Finite sample identification of bilinear dynamical systems
     year: '2022'
   fqgk10cAAAAJ:HDshCWvjkbEC:
-    citations: 12
+    citations: 11
     title: Quickly finding the best linear model in high dimensions via projected gradient descent
     year: '2020'
   fqgk10cAAAAJ:JV2RwH3_ST0C:
@@ -34,7 +34,7 @@ papers:
     title: Random features approximation for control-affine systems
     year: '2024'
   fqgk10cAAAAJ:MXK_kJrjxJIC:
-    citations: 11
+    citations: 10
     title: 'Data-driven control of markov jump systems: Sample complexity and regret bounds'
     year: '2022'
   fqgk10cAAAAJ:RGFaLdJalmkC:
@@ -43,7 +43,7 @@ papers:
     year: '2025'
   fqgk10cAAAAJ:Tyk-4Ss8FVUC:
     citations: 4
-    title: Estimation of Groundwater Storage Variations in Indus River Basin Using Grace Data
+    title: Estimation of groundwater storage variations in Indus River Basin using GRACE data
     year: '2021'
   fqgk10cAAAAJ:UeHWp8X0CEIC:
     citations: 2
@@ -54,7 +54,7 @@ papers:
     title: Certainty equivalent quadratic control for markov jump systems
     year: '2021'
   fqgk10cAAAAJ:YFjsv_pBGBYC:
-    citations: 28
+    citations: 27
     title: 'Identification and adaptive control of markov jump systems: Sample complexity and regret bounds'
     year: '2021'
   fqgk10cAAAAJ:YsMSGLbcyi4C:
@@ -63,7 +63,7 @@ papers:
     year: '2021'
   fqgk10cAAAAJ:blknAaTinKkC:
     citations: 1
-    title: Sub-optimality of the Separation Principle for Quadratic Control from Bilinear Observations
+    title: Sub-optimality of the separation principle for quadratic control from bilinear observations
     year: '2025'
   fqgk10cAAAAJ:e5wmG9Sq2KIC:
     citations: 2
