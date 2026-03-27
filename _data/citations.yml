@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-09'
+  last_updated: '2026-03-27'
 papers:
   fqgk10cAAAAJ:2P1L_qKh6hAC:
     citations: 0
@@ -22,7 +22,7 @@ papers:
     title: Quickly finding the best linear model in high dimensions via projected gradient descent
     year: '2020'
   fqgk10cAAAAJ:JV2RwH3_ST0C:
-    citations: 5
+    citations: 6
     title: Finite sample identification of partially observed bilinear dynamical systems
     year: '2025'
   fqgk10cAAAAJ:M05iB0D1s5AC:
