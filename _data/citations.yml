@@ -1,16 +1,12 @@
 metadata:
-  last_updated: '2026-05-18'
+  last_updated: '2026-05-25'
 papers:
-  fqgk10cAAAAJ:2P1L_qKh6hAC:
-    citations: 3
-    title: Pre-trained Large Language Models Learn to Predict Hidden Markov Models In-context
-    year: '2025'
   fqgk10cAAAAJ:5nxA0vEk-isC:
     citations: 4
     title: Certainty equivalent quadratic control for markov jump systems
     year: '2022'
   fqgk10cAAAAJ:70eg2SAEIzsC:
-    citations: 96
+    citations: 98
     title: Non-asymptotic and accurate learning of nonlinear dynamical systems
     year: '2022'
   fqgk10cAAAAJ:GnPB-g6toBAC:
@@ -21,14 +17,14 @@ papers:
     citations: 11
     title: Quickly finding the best linear model in high dimensions via projected gradient descent
     year: '2020'
+  fqgk10cAAAAJ:HoB7MX3m0LUC:
+    citations: 0
+    title: Pre-trained Large Language Models Learn to Predict Hidden Markov Models In-context
+    year: '2026'
   fqgk10cAAAAJ:JV2RwH3_ST0C:
-    citations: 8
+    citations: 7
     title: Finite sample identification of partially observed bilinear dynamical systems
     year: '2025'
-  fqgk10cAAAAJ:M05iB0D1s5AC:
-    citations: 0
-    title: Exploring Weight Importance and Hessian Bias in Model Pruning
-    year: '2020'
   fqgk10cAAAAJ:M3NEmzRMIkIC:
     citations: 3
     title: Random features approximation for control-affine systems
@@ -40,6 +36,10 @@ papers:
   fqgk10cAAAAJ:RGFaLdJalmkC:
     citations: 1
     title: Explore-then-Commit for Nonstationary Linear Bandits with Latent Dynamics
+    year: '2025'
+  fqgk10cAAAAJ:SeFeTyx0c_EC:
+    citations: 3
+    title: Pre-trained Large Language Models Learn Hidden Markov Models In-context
     year: '2025'
   fqgk10cAAAAJ:Tyk-4Ss8FVUC:
     citations: 5
