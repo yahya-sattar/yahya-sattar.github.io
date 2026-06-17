@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-06-10'
+  last_updated: '2026-06-17'
 papers:
   fqgk10cAAAAJ:5nxA0vEk-isC:
     citations: 4
     title: Certainty equivalent quadratic control for markov jump systems
     year: '2022'
   fqgk10cAAAAJ:70eg2SAEIzsC:
-    citations: 99
+    citations: 98
     title: Non-asymptotic and accurate learning of nonlinear dynamical systems
     year: '2022'
   fqgk10cAAAAJ:GnPB-g6toBAC:
@@ -22,7 +22,7 @@ papers:
     title: Pre-trained Large Language Models Learn to Predict Hidden Markov Models In-context
     year: '2026'
   fqgk10cAAAAJ:JV2RwH3_ST0C:
-    citations: 8
+    citations: 9
     title: Finite sample identification of partially observed bilinear dynamical systems
     year: '2025'
   fqgk10cAAAAJ:M3NEmzRMIkIC:
@@ -54,9 +54,13 @@ papers:
     title: Certainty equivalent quadratic control for markov jump systems
     year: '2021'
   fqgk10cAAAAJ:YFjsv_pBGBYC:
-    citations: 29
+    citations: 28
     title: 'Identification and adaptive control of markov jump systems: Sample complexity and regret bounds'
     year: '2021'
+  fqgk10cAAAAJ:ZHo1McVdvXMC:
+    citations: 0
+    title: Two-Layer Linear Auto-Regressive Models Estimate Latent States
+    year: '2026'
   fqgk10cAAAAJ:blknAaTinKkC:
     citations: 2
     title: Sub-optimality of the separation principle for quadratic control from bilinear observations
@@ -82,7 +86,7 @@ papers:
     title: Exploring weight importance and hessian bias in model pruning
     year: '2020'
   fqgk10cAAAAJ:ns9cj8rnVeAC:
-    citations: 5
+    citations: 4
     title: Learning linear dynamics from bilinear observations
     year: '2025'
   fqgk10cAAAAJ:pqnbT2bcN3wC:
