@@ -1,16 +1,16 @@
 metadata:
-  last_updated: '2026-06-22'
+  last_updated: '2026-07-03'
 papers:
   fqgk10cAAAAJ:5nxA0vEk-isC:
-    citations: 4
+    citations: 5
     title: Certainty equivalent quadratic control for markov jump systems
     year: '2022'
   fqgk10cAAAAJ:70eg2SAEIzsC:
-    citations: 100
+    citations: 103
     title: Non-asymptotic and accurate learning of nonlinear dynamical systems
     year: '2022'
   fqgk10cAAAAJ:GnPB-g6toBAC:
-    citations: 31
+    citations: 32
     title: Finite sample identification of bilinear dynamical systems
     year: '2022'
   fqgk10cAAAAJ:HDshCWvjkbEC:
@@ -22,15 +22,15 @@ papers:
     title: Pre-trained Large Language Models Learn to Predict Hidden Markov Models In-context
     year: '2026'
   fqgk10cAAAAJ:JV2RwH3_ST0C:
-    citations: 9
+    citations: 11
     title: Finite sample identification of partially observed bilinear dynamical systems
     year: '2025'
   fqgk10cAAAAJ:M3NEmzRMIkIC:
-    citations: 3
+    citations: 4
     title: Random features approximation for control-affine systems
     year: '2024'
   fqgk10cAAAAJ:MXK_kJrjxJIC:
-    citations: 10
+    citations: 12
     title: 'Data-driven control of markov jump systems: Sample complexity and regret bounds'
     year: '2022'
   fqgk10cAAAAJ:RGFaLdJalmkC:
@@ -54,7 +54,7 @@ papers:
     title: Certainty equivalent quadratic control for markov jump systems
     year: '2021'
   fqgk10cAAAAJ:YFjsv_pBGBYC:
-    citations: 29
+    citations: 30
     title: 'Identification and adaptive control of markov jump systems: Sample complexity and regret bounds'
     year: '2021'
   fqgk10cAAAAJ:ZHo1McVdvXMC:
