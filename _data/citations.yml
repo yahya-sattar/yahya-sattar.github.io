@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-17'
+  last_updated: '2026-08-12'
 papers:
   fqgk10cAAAAJ:5nxA0vEk-isC:
     citations: 5
@@ -10,7 +10,7 @@ papers:
     title: Non-asymptotic and accurate learning of nonlinear dynamical systems
     year: '2022'
   fqgk10cAAAAJ:GnPB-g6toBAC:
-    citations: 31
+    citations: 33
     title: Finite sample identification of bilinear dynamical systems
     year: '2022'
   fqgk10cAAAAJ:HDshCWvjkbEC:
@@ -18,7 +18,7 @@ papers:
     title: Quickly finding the best linear model in high dimensions via projected gradient descent
     year: '2020'
   fqgk10cAAAAJ:HoB7MX3m0LUC:
-    citations: 0
+    citations: 3
     title: Pre-trained Large Language Models Learn to Predict Hidden Markov Models In-context
     year: '2026'
   fqgk10cAAAAJ:JV2RwH3_ST0C:
@@ -26,7 +26,7 @@ papers:
     title: Finite sample identification of partially observed bilinear dynamical systems
     year: '2025'
   fqgk10cAAAAJ:M3NEmzRMIkIC:
-    citations: 4
+    citations: 5
     title: Random features approximation for control-affine systems
     year: '2024'
   fqgk10cAAAAJ:MXK_kJrjxJIC:
@@ -39,10 +39,10 @@ papers:
     year: '2025'
   fqgk10cAAAAJ:SeFeTyx0c_EC:
     citations: 3
-    title: Pre-trained Large Language Models Learn Hidden Markov Models In-context
+    title: Pre-trained large language models learn hidden markov models in-context
     year: '2025'
   fqgk10cAAAAJ:Tyk-4Ss8FVUC:
-    citations: 5
+    citations: 4
     title: Estimation of groundwater storage variations in Indus River Basin using GRACE data
     year: '2021'
   fqgk10cAAAAJ:UeHWp8X0CEIC:
@@ -54,7 +54,7 @@ papers:
     title: Certainty equivalent quadratic control for markov jump systems
     year: '2021'
   fqgk10cAAAAJ:YFjsv_pBGBYC:
-    citations: 29
+    citations: 31
     title: 'Identification and adaptive control of markov jump systems: Sample complexity and regret bounds'
     year: '2021'
   fqgk10cAAAAJ:ZHo1McVdvXMC:
@@ -71,7 +71,7 @@ papers:
     year: '2019'
   fqgk10cAAAAJ:g5m5HwL7SMYC:
     citations: 4
-    title: 'Group Activity Recognition in Visual Data: A Retrospective Analysis of Recent Advancements'
+    title: 'Group activity recognition in visual data: A retrospective analysis of recent advancements'
     year: '2021'
   fqgk10cAAAAJ:hFOr9nPyWt4C:
     citations: 0
@@ -92,6 +92,10 @@ papers:
   fqgk10cAAAAJ:pqnbT2bcN3wC:
     citations: 0
     title: Dual Control of Linear Systems from Bilinear Observations with Belief Space Model Predictive Control
+    year: '2026'
+  fqgk10cAAAAJ:rO6llkc54NcC:
+    citations: 0
+    title: 'Extracting Algorithms in Pre-trained LLMs: A Case on Hidden Markov Models'
     year: '2026'
   fqgk10cAAAAJ:u-x6o8ySG0sC:
     citations: 2
