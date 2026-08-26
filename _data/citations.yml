@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-12'
+  last_updated: '2026-08-26'
 papers:
   fqgk10cAAAAJ:5nxA0vEk-isC:
     citations: 5
@@ -18,7 +18,7 @@ papers:
     title: Quickly finding the best linear model in high dimensions via projected gradient descent
     year: '2020'
   fqgk10cAAAAJ:HoB7MX3m0LUC:
-    citations: 3
+    citations: 4
     title: Pre-trained Large Language Models Learn to Predict Hidden Markov Models In-context
     year: '2026'
   fqgk10cAAAAJ:JV2RwH3_ST0C:
