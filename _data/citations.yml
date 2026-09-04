@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-26'
+  last_updated: '2026-09-04'
 papers:
   fqgk10cAAAAJ:5nxA0vEk-isC:
     citations: 5
@@ -57,10 +57,6 @@ papers:
     citations: 31
     title: 'Identification and adaptive control of markov jump systems: Sample complexity and regret bounds'
     year: '2021'
-  fqgk10cAAAAJ:ZHo1McVdvXMC:
-    citations: 0
-    title: Two-Layer Linear Auto-Regressive Models Estimate Latent States
-    year: '2026'
   fqgk10cAAAAJ:blknAaTinKkC:
     citations: 2
     title: Sub-optimality of the separation principle for quadratic control from bilinear observations
@@ -105,3 +101,7 @@ papers:
     citations: 2
     title: Robust reconstruction of spherical signals with finite rate of innovation
     year: '2017'
+  fqgk10cAAAAJ:u_35RYKgDlwC:
+    citations: 0
+    title: Two-Layer Linear Auto-Regressive Models Estimate Latent States
+    year: '2026'
