@@ -29,10 +29,10 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 13 # leave blank to include all the blog posts
 ---
-Postdoctoral Associate, <a href='https://www.cornell.edu/about/'>Cornell University</a> (<a href='https://www.cs.cornell.edu'>Department of Computer Science</a>).  
+Foundational AI Postdoctoral Fellow, <a href='https://www.cornell.edu/about/'>Cornell University</a> (<a href='https://www.cs.cornell.edu'>Department of Computer Science</a>).  
 
-I am a Postdoctoral Associate affiliated with the Department of Computer Science at Cornell University, working with <a href='https://sdean.website'>Prof. Sarah Dean</a>. I received my PhD in Electrical Engineering in 2023 under the supervision of <a href='https://sota.engin.umich.edu'>Prof. Samet Oymak</a> at University of California Riverside, where my research focused on <a href='https://www.researchgate.net/profile/Yahya-Sattar-3/publication/376076888_thesis/links/6568cf00ce88b870312083ab/thesis.pdf'>statistical learning and adaptive control of complex dynamical systems</a>. 
+I am a Postdoctoral Fellow with the Department of Computer Science at Cornell University, working with <a href='https://sdean.website'>Prof. Sarah Dean</a>. I received my PhD in Electrical Engineering under the supervision of <a href='https://sota.engin.umich.edu'>Prof. Samet Oymak</a> at University of California Riverside, where my research focused on <a href='https://www.researchgate.net/profile/Yahya-Sattar-3/publication/376076888_thesis/links/6568cf00ce88b870312083ab/thesis.pdf'>statistical learning and adaptive control of complex dynamical systems</a>. 
 
 My research interests revolve broadly around the statistical and algorithmic aspects of <strong>sequential learning</strong> and <strong>decision making</strong> in dynamic settings, with applications in robotics, autonomous systems, and broader scientific and engineering domains. More precisely, I study the learning and inference problems arising in <strong><font color="CornflowerBlue">Optimal Control</font></strong>, <strong><font color="CornflowerBlue">Reinforcement Learning</font></strong>, and <strong><font color="CornflowerBlue">Machine Learning</font></strong>, using tools and concepts from <strong>Statistical Learning</strong>, <strong>Optimization</strong>, and <strong>Control Theory</strong>.
 
-<strong><font color="red">I am in the academic job market!</font></strong>
+<strong><font color="red">I am in the job market!</font></strong>
