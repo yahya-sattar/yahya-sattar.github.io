@@ -19,7 +19,7 @@ profiles:
   #    <p>Your City, State 12345</p>
   - align: left
     image: prof_pic.jpg
-    content: about_einstein.md
+    content: about_yahya.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>email: <a href="mailto:ysattar@cornell.edu">ysattar@cornell.edu</a></p>
