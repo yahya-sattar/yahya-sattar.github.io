@@ -7,4 +7,3 @@ related_posts: false
 ---
 
 I have joinded the <a href='https://www.cs.cornell.edu'>Department of Computer Science at Cornell</a> as a postdoctoral associate starting Fall 2023. I am very fortunate to be working with <a href='https://sdean.website'>Prof. Sarah Dean</a> at Cornell, and collaborating closely with <a href='https://people.ece.uw.edu/fazel_maryam/'>Prof. Maryam Fazel</a> at UW Seattle.
-  

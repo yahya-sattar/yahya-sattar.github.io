@@ -7,4 +7,3 @@ related_posts: false
 ---
 
 [<font color="red"> New! </font>] I am serving as an Area Chair for <a href='https://neurips.cc'>NeurIPS 2026!</a>.
-  
