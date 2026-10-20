@@ -469,12 +469,27 @@
   "languages": [
     {
       "language": "English",
-      "fluency": "Fluent",
+      "fluency": "Proficient",
       "icon": ""
     },
     {
       "language": "Urdu",
       "fluency": "Native Speaker",
+      "icon": ""
+    },
+    {
+      "language": "Balti",
+      "fluency": "Native Speaker",
+      "icon": ""
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Intermediate",
+      "icon": ""
+    },
+    {
+      "language": "Arabic",
+      "fluency": "Basic",
       "icon": ""
     }
   ],
