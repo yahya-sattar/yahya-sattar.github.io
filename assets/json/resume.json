@@ -289,42 +289,62 @@
     {
       "title": "Learning and Control Beyond Linearity: Towards a Non-asymptotic Theory for Bilinear Systems",
       "date": "CDC 2026",
-      "awarder": "Co-Organizer of the tutorial session at IEEE Conference on Decision and Control."
+      "highlights": ["Co-Organizer of the tutorial session at IEEE Conference on Decision and Control (2026)."]
     },
     {
       "title": "Latent State Representation Learning in Auto-Regressive Models",
       "date": "INFORMS 2026",
-      "awarder": "Invited talk at the INFORMS session on Recent Developments in Statistics and Learning, hosted by the Applied Probability Society at the 2026 INFORMS Annual Meeting."
+      "highlights": [
+        "Invited talk at the INFORMS session on Recent Developments in Statistics and Learning, hosted by the Applied Probability Society at the 2026 INFORMS Annual Meeting (2026)."
+      ]
     },
     {
       "title": "Two-Layer Linear Auto-Regressive Models Estimate Latent States",
       "date": "2026",
-      "awarder": "Selected talk at the Northeast Systems and Control Workshop, Princeton (2026). Poster at the Workshop on New Directions in Reinforcement Learning and Control, hosted by the NSF Institute for Mathematical and Statistical Innovation, U Chicago (2026)."
+      "highlights": [
+        "Selected talk at the Northeast Systems and Control Workshop, Princeton (2026).",
+        "Poster at the Workshop on New Directions in Reinforcement Learning and Control, hosted by the NSF Institute for Mathematical and Statistical Innovation, U Chicago (2026)."
+      ]
     },
     {
       "title": "Finite Sample Identification of Partially Observed Bilinear Dynamical Systems",
       "date": "2025",
-      "awarder": "Poster at the Workshop on Theoretical Foundations of Applied AI, hosted by the NSF Institute for Foundations of Data Science, UW Seattle (2025). Invited talk at Prof. Necmiye Ozay’s group meeting, U Michigan Ann Arbor (2025)."
+      "highlights": [
+        "Poster at the Workshop on Theoretical Foundations of Applied AI, hosted by the NSF Institute for Foundations of Data Science, UW Seattle (2025).",
+        "Invited talk at Prof. Necmiye Ozay’s group meeting, U Michigan Ann Arbor (2025)."
+      ]
     },
     {
       "title": "Learning & Control of Linear Dynamics from Bilinear Observations",
       "date": "2024 – 2025",
-      "awarder": "Invited talk at the Workshop on the Theoretical Aspects of Trustworthy AI, Simons Institute for Theory of Computing, UC Berkeley, presented by Prof. Sarah Dean (2025). Poster at the Northeast Systems and Control Workshop, U Pennsylvania (2024). Poster at the Princeton Workshop on Optimization, Learning, and Control (2024). Invited talk at the ICML Workshop on Foundations of Reinforcement Learning and Control, presented by Prof. Sarah Dean (2024)."
+      "highlights": [
+        "Invited talk at the Workshop on the Theoretical Aspects of Trustworthy AI, Simons Institute for Theory of Computing, UC Berkeley, presented by Prof. Sarah Dean (2025).",
+        "Poster at the Northeast Systems and Control Workshop, U Pennsylvania (2024).",
+        "Poster at the Princeton Workshop on Optimization, Learning, and Control (2024).",
+        "Invited talk at the ICML Workshop on Foundations of Reinforcement Learning and Control, presented by Prof. Sarah Dean (2024)."
+      ]
     },
     {
       "title": "Statistical Learning Theory for Nonlinear Dynamical Systems",
       "date": "2023",
-      "awarder": "Invited talk at Prof. Na Li’s group meeting, Harvard University (2023). Invited talk at Prof. Necmiye Ozay’s group meeting, U Michigan Ann Arbor (2023)."
+      "highlights": [
+        "Invited talk at Prof. Na Li’s group meeting, Harvard University (2023).",
+        "Invited talk at Prof. Necmiye Ozay’s group meeting, U Michigan Ann Arbor (2023)."
+      ]
     },
     {
       "title": "Finite Sample Identification of Bilinear Dynamical Systems",
       "date": "2022",
-      "awarder": "Selected talk at the 40th Southern California Control Workshop, Caltech."
+      "highlights": ["Selected talk at the 40th Southern California Control Workshop, Caltech (2022)."]
     },
     {
       "title": "Identification and Adaptive Control of Markov Jump Systems: Sample Complexity and Regret Bounds",
       "date": "2021 – 2022",
-      "awarder": "Invited talk at the IEEE CDC Workshop on Statistical Learning Theory for Control (2022). Poster at the ICML Workshop on Reinforcement Learning Theory (2021). Selected talk at the 38th Southern California Control Workshop, UC Irvine (2021)."
+      "highlights": [
+        "Invited talk at the IEEE CDC Workshop on Statistical Learning Theory for Control (2022).",
+        "Poster at the ICML Workshop on Reinforcement Learning Theory (2021).",
+        "Selected talk at the 38th Southern California Control Workshop, UC Irvine (2021)."
+      ]
     }
   ],
   "teaching": [
