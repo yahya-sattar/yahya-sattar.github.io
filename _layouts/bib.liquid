@@ -54,9 +54,6 @@
       {% assign author_array_size = entry.author_array | size %}
 
       {% assign author_array_limit = author_array_size %}
-      {% if site.max_author_limit and author_array_size > site.max_author_limit %}
-        {% assign author_array_limit = site.max_author_limit %}
-      {% endif %}
 
       {%- for author in entry.author_array limit: author_array_limit -%}
         {% assign author_is_self = false %}
@@ -78,25 +75,25 @@
           {% endfor %}
         {%- endif -%}
 
-        {%- if forloop.length > 1 -%}
-          {% if forloop.first == false -%}
-            {%- if forloop.length > 2 %}, {% elsif forloop.length == 2 %}  {% endif %}
-          {%- endif %}
-          {%- if forloop.last and author_array_limit == author_array_size %}and {% endif -%}
-        {% endif %}
+        {%- assign author_initials = '' -%}
+        {%- assign first_name_parts = author.first | replace: '.', ' ' | replace: '-', ' ' | split: ' ' -%}
+        {%- for part in first_name_parts -%}
+          {%- assign author_initials = author_initials | append: part.first | append: '.' -%}
+        {%- endfor -%}
+        {%- unless forloop.first %}, {% endunless -%}
         {%- if author_is_self -%}
-          <em>
-            {{- author.first }}
+          <span style="font-weight: 700; text-decoration: underline">
+            {{- author_initials }}
             {{ author_last_html -}}
-          </em>
+          </span>
         {%- else -%}
           {%- if coauthor_url -%}
             <a href="{{ coauthor_url }}">
-              {{- author.first }}
+              {{- author_initials }}
               {{ author_last_html -}}
             </a>
           {%- else -%}
-            {{- author.first }}
+            {{- author_initials }}
             {{ author_last_html -}}
           {% endif %}
         {%- endif -%}
