@@ -636,6 +636,11 @@ jsonresume:
   - projects
   - volunteer
   - awards
+  - talks
+  - teaching
+  - theses
+  - mentoring
+  - service
   - certificates
   - skills
   - languages
