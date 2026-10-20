@@ -57,18 +57,18 @@
     {
       "institution": "University of California, Riverside · Riverside, CA, USA",
       "url": "https://ucr.edu/",
-      "area": "Department of ECE · Advised by Prof. Samet Oymak",
-      "studyType": "PhD in Electrical Engineering",
-      "startDate": "2017",
-      "endDate": "2023"
-    },
-    {
-      "institution": "University of California, Riverside · Riverside, CA, USA",
-      "url": "https://ucr.edu/",
       "area": "Department of ECE",
       "studyType": "MS in Electrical Engineering",
       "startDate": "2017",
       "endDate": "2019"
+    },
+    {
+      "institution": "University of California, Riverside · Riverside, CA, USA",
+      "url": "https://ucr.edu/",
+      "area": "Department of ECE · Advised by Prof. Samet Oymak",
+      "studyType": "PhD in Electrical Engineering",
+      "startDate": "2017",
+      "endDate": "2023"
     },
     {
       "institution": "LUMS University · Lahore, Pakistan",
