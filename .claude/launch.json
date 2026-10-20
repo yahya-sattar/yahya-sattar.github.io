@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "cv-preview",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "4000",
+        "-d",
+        "/private/tmp/claude-501/-Users-yahyasattar--claude-spares-spare-WEzvGd/34f537fe-02eb-427d-912b-71128e4a0dac/scratchpad/site"
+      ],
+      "port": 4000
+    }
+  ]
+}
