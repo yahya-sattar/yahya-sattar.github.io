@@ -482,6 +482,9 @@ ninja.data = [{
           section: "News",},{id: "news-attended-the-northeast-systems-and-control-workshop-at-princeton-university-and-gave-a-talk-on-two-layer-linear-auto-regressive-models-estimate-latent-states-joint-work-with-s-choi-l-zhang-y-jedra-m-fazel-and-s-dean-paper",
           title: 'Attended the Northeast Systems and Control Workshop at Princeton University, and gave a...',
           description: "",
+          section: "News",},{id: "news-attended-the-workshop-on-new-directions-in-reinforcement-learning-and-control-organized-by-the-nsf-institute-for-mathematical-and-statistical-innovation-imsi-at-the-university-of-chicago-and-presented-a-poster-on-two-layer-linear-auto-regressive-models-estimate-latent-states-joint-work-with-s-choi-l-zhang-y-jedra-m-fazel-and-s-dean-paper",
+          title: 'Attended the Workshop on New Directions in Reinforcement Learning and Control, organized by...',
+          description: "",
           section: "News",},{
         id: 'social-cv',
         title: 'CV',
