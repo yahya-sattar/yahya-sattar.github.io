@@ -107,182 +107,182 @@
       "publisher": "In submission to the 15th International Conference on Learning Representations (ICLR 2027)",
       "releaseDate": "2027",
       "url": "https://arxiv.org/pdf/2607.22646",
-      "summary": "Y. Dai, Z. Gao, Y. Sattar, J.J. Sun, S. Dean"
+      "summary": "Y. Dai, Z. Gao, <span style=\"font-weight: 700; text-decoration: underline\">Y. Sattar</span>, J.J. Sun, S. Dean"
     },
     {
       "name": "Two-Layer Linear Auto-Regressive Models Estimate Latent States",
       "publisher": "The 43rd International Conference on Machine Learning (ICML 2026)",
       "releaseDate": "2026",
       "url": "https://arxiv.org/pdf/2606.12691",
-      "summary": "Y. Sattar, S. Choi, L. M-Zhang, Y. Jedra, M. Fazel, S. Dean"
+      "summary": "<span style=\"font-weight: 700; text-decoration: underline\">Y. Sattar</span>, S. Choi, L. M-Zhang, Y. Jedra, M. Fazel, S. Dean"
     },
     {
       "name": "Pre-trained Large Language Models Learn to Predict Hidden Markov Models In-context",
       "publisher": "The 39th Annual Conference on Neural Information Processing Systems (NeurIPS 2025)",
       "releaseDate": "2025",
       "url": "https://arxiv.org/pdf/2506.07298",
-      "summary": "Y. Dai, Z. Gao, Y. Sattar, S. Dean, J.J. Sun"
+      "summary": "Y. Dai, Z. Gao, <span style=\"font-weight: 700; text-decoration: underline\">Y. Sattar</span>, S. Dean, J.J. Sun"
     },
     {
       "name": "Performance Gaps Between Open-Loop, Certainty-Equivalent, and Optimal Control Under Action-Dependent Observations",
       "publisher": "In submission to the 30th International Conference on Artificial Intelligence and Statistics (AISTATS 2027)",
       "releaseDate": "2027",
       "url": "https://www.dropbox.com/scl/fo/qzqydfhhx4vw5i3s5i5dz/ALGmZvfQmqsZ1hXxVSJqzuY?rlkey=wyhf67rr569d2j1cnt4v3tjdg&st=rxghh41w&dl=0",
-      "summary": "L. M-Zhang, S. Choi, Y. Sattar, Y. Jedra, S. Dean, M. Fazel"
+      "summary": "L. M-Zhang, S. Choi, <span style=\"font-weight: 700; text-decoration: underline\">Y. Sattar</span>, Y. Jedra, S. Dean, M. Fazel"
     },
     {
       "name": "Explore-then-Commit for Nonstationary Linear Bandits with Latent Dynamics",
       "publisher": "The 29th International Conference on Artificial Intelligence and Statistics (AISTATS 2026)",
       "releaseDate": "2026",
       "url": "https://arxiv.org/pdf/2510.16208",
-      "summary": "S. Choi, Y. Sattar, Y. Jedra, M. Fazel, S. Dean"
+      "summary": "S. Choi, <span style=\"font-weight: 700; text-decoration: underline\">Y. Sattar</span>, Y. Jedra, M. Fazel, S. Dean"
     },
     {
       "name": "Bilinear System Identification: A Unified Finite-Sample Analysis",
       "publisher": "In submission to the IFAC Journal of Systems and Control (Journal)",
       "releaseDate": "2027",
       "url": "https://www.dropbox.com/scl/fo/qzqydfhhx4vw5i3s5i5dz/ALGmZvfQmqsZ1hXxVSJqzuY?rlkey=wyhf67rr569d2j1cnt4v3tjdg&st=rxghh41w&dl=0",
-      "summary": "Y. Sattar, Y. Jedra, M. Fazel, S. Dean"
+      "summary": "<span style=\"font-weight: 700; text-decoration: underline\">Y. Sattar</span>, Y. Jedra, M. Fazel, S. Dean"
     },
     {
       "name": "Dual Control of Linear Systems from Bilinear Observations with Belief Space Model Predictive Control",
       "publisher": "In submission to the 2027 American Control Conference (ACC 2027, Senior Author)",
       "releaseDate": "2027",
       "url": "https://arxiv.org/pdf/2604.24663",
-      "summary": "D. Cao, B. Du, A. Lowitt, S. Choi, S. Dean, Y. Sattar"
+      "summary": "D. Cao, B. Du, A. Lowitt, S. Choi, S. Dean, <span style=\"font-weight: 700; text-decoration: underline\">Y. Sattar</span>"
     },
     {
       "name": "Learning & Control Beyond Linearity: Towards a Non-asymptotic Theory for Bilinear Systems",
       "publisher": "The IEEE 65th Conference on Decision and Control (CDC 2026, Tutorial)",
       "releaseDate": "2026",
       "url": "https://arxiv.org/pdf/2609.22338",
-      "summary": "Y. Sattar, Y. Jedra, R. Strässer, F. Allgöwer, M. Fazel, S. Dean"
+      "summary": "<span style=\"font-weight: 700; text-decoration: underline\">Y. Sattar</span>, Y. Jedra, R. Strässer, F. Allgöwer, M. Fazel, S. Dean"
     },
     {
       "name": "Finite Sample Identification of Partially Observed Bilinear Dynamical Systems",
       "publisher": "The 7th Conference on Learning for Dynamics and Control, U Michigan Ann Arbor (L4DC 2025, Oral)",
       "releaseDate": "2025",
       "url": "https://arxiv.org/pdf/2501.07652",
-      "summary": "Y. Sattar†, Y. Jedra†, M. Fazel, S. Dean"
+      "summary": "<span style=\"font-weight: 700; text-decoration: underline\">Y. Sattar</span>†, Y. Jedra†, M. Fazel, S. Dean"
     },
     {
       "name": "Sub-optimality of the Separation Principle for Quadratic Control from Bilinear Observations",
       "publisher": "IEEE 64th Conference on Decision and Control (CDC 2025)",
       "releaseDate": "2025",
       "url": "https://arxiv.org/pdf/2504.11555",
-      "summary": "Y. Sattar, S. Choi, Y. Jedra, M. Fazel, S. Dean"
+      "summary": "<span style=\"font-weight: 700; text-decoration: underline\">Y. Sattar</span>, S. Choi, Y. Jedra, M. Fazel, S. Dean"
     },
     {
       "name": "Learning Linear Dynamics from Bilinear Observations",
       "publisher": "The 2025 American Control Conference (ACC 2025)",
       "releaseDate": "2025",
       "url": "https://arxiv.org/pdf/2409.16499",
-      "summary": "Y. Sattar, Y. Jedra, S. Dean"
+      "summary": "<span style=\"font-weight: 700; text-decoration: underline\">Y. Sattar</span>, Y. Jedra, S. Dean"
     },
     {
       "name": "Finite Sample Identification of Bilinear Dynamical Systems",
       "publisher": "IEEE 61st Conference on Decision and Control (CDC 2022)",
       "releaseDate": "2022",
       "url": "https://arxiv.org/pdf/2208.13915",
-      "summary": "Y. Sattar, S. Oymak, N. Ozay"
+      "summary": "<span style=\"font-weight: 700; text-decoration: underline\">Y. Sattar</span>, S. Oymak, N. Ozay"
     },
     {
       "name": "Identification and Adaptive Control of Markov Jump Systems: Sample Complexity and Regret Bounds",
       "publisher": "In revision to the IEEE Transactions on Automatic Control (TAC, Journal)",
       "releaseDate": "2026",
       "url": "https://arxiv.org/pdf/2111.07018",
-      "summary": "Y. Sattar†, Z. Du†, D.A. Tarzanagh, L. Balzano, N. Ozay, S. Oymak"
+      "summary": "<span style=\"font-weight: 700; text-decoration: underline\">Y. Sattar</span>†, Z. Du†, D.A. Tarzanagh, L. Balzano, N. Ozay, S. Oymak"
     },
     {
       "name": "Certainty Equivalent Quadratic Control for Markov Jump Systems",
       "publisher": "The 2022 American Control Conference (ACC 2022)",
       "releaseDate": "2022",
       "url": "https://arxiv.org/pdf/2105.12358",
-      "summary": "Y. Sattar†, Z. Du†, D.A. Tarzanagh, S. Oymak, L. Balzano, N. Ozay"
+      "summary": "<span style=\"font-weight: 700; text-decoration: underline\">Y. Sattar</span>†, Z. Du†, D.A. Tarzanagh, S. Oymak, L. Balzano, N. Ozay"
     },
     {
       "name": "Data-driven Control of Markov Jump Systems: Sample Complexity and Regret Bounds",
       "publisher": "The 2022 American Control Conference (ACC 2022)",
       "releaseDate": "2022",
       "url": "https://par.nsf.gov/servlets/purl/10394718",
-      "summary": "Z. Du†, Y. Sattar†, D.A. Tarzanagh, L. Balzano, N. Ozay, S. Oymak"
+      "summary": "Z. Du†, <span style=\"font-weight: 700; text-decoration: underline\">Y. Sattar</span>†, D.A. Tarzanagh, L. Balzano, N. Ozay, S. Oymak"
     },
     {
       "name": "Random Features Approximation for Control-Affine Systems",
       "publisher": "The 6th Conference on Learning for Dynamics and Control, U Oxford (L4DC 2024)",
       "releaseDate": "2024",
       "url": "https://arxiv.org/pdf/2406.06514",
-      "summary": "K. Kazemian, Y. Sattar, S. Dean"
+      "summary": "K. Kazemian, <span style=\"font-weight: 700; text-decoration: underline\">Y. Sattar</span>, S. Dean"
     },
     {
       "name": "Non-asymptotic and Accurate Learning of Nonlinear Dynamical Systems",
       "publisher": "Journal of Machine Learning Research (JMLR, Journal; poster at NeurIPS 2022)",
       "releaseDate": "2022",
       "url": "https://www.jmlr.org/papers/volume23/20-617/20-617.pdf",
-      "summary": "Y. Sattar, S. Oymak"
+      "summary": "<span style=\"font-weight: 700; text-decoration: underline\">Y. Sattar</span>, S. Oymak"
     },
     {
       "name": "A Simple Framework for Learning Stabilizable Systems",
       "publisher": "IEEE Computational Advances in Multi-Sensor Adaptive Processing (CAMSAP 2019)",
       "releaseDate": "2019",
       "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9022665",
-      "summary": "Y. Sattar, S. Oymak"
+      "summary": "<span style=\"font-weight: 700; text-decoration: underline\">Y. Sattar</span>, S. Oymak"
     },
     {
       "name": "A Case Study of Low Ranked Self-Expressive Structures in Neural Network Representations",
       "publisher": "The 2nd Conference on Parsimony and Learning, Stanford University (CPAL 2025, Oral)",
       "releaseDate": "2025",
       "url": "https://openreview.net/pdf?id=vMGYwMFRKf",
-      "summary": "U.S. Saini, W. Shiao, Y. Sattar, Y. Dahiya, S. Oymak, E.E. Papalexakis"
+      "summary": "U.S. Saini, W. Shiao, <span style=\"font-weight: 700; text-decoration: underline\">Y. Sattar</span>, Y. Dahiya, S. Oymak, E.E. Papalexakis"
     },
     {
       "name": "Quickly Finding the Best Linear Model in High Dimensions via Projected Gradient Descent",
       "publisher": "IEEE Transactions on Signal Processing (TSP, Journal)",
       "releaseDate": "2020",
       "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8950419",
-      "summary": "Y. Sattar, S. Oymak"
+      "summary": "<span style=\"font-weight: 700; text-decoration: underline\">Y. Sattar</span>, S. Oymak"
     },
     {
       "name": "Exploring Weight Importance and Hessian Bias in Model Pruning",
       "publisher": "arXiv (Preprint)",
       "releaseDate": "2020",
       "url": "https://intra.ece.ucr.edu/~oymak/importance.pdf",
-      "summary": "M. Li, Y. Sattar, C. Thrampoulidis, S. Oymak"
+      "summary": "M. Li, <span style=\"font-weight: 700; text-decoration: underline\">Y. Sattar</span>, C. Thrampoulidis, S. Oymak"
     },
     {
       "name": "Estimation of Groundwater Storage Variations in Indus River Basin Using GRACE Data",
       "publisher": "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2021)",
       "releaseDate": "2021",
       "url": "https://arxiv.org/pdf/2010.12175",
-      "summary": "Y. Sattar, Z. Khalid"
+      "summary": "<span style=\"font-weight: 700; text-decoration: underline\">Y. Sattar</span>, Z. Khalid"
     },
     {
       "name": "Accurate Reconstruction of Finite Rate of Innovation Signals on the Sphere",
       "publisher": "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2019)",
       "releaseDate": "2019",
       "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8682607",
-      "summary": "Y. Sattar, Z. Khalid, R.A. Kennedy"
+      "summary": "<span style=\"font-weight: 700; text-decoration: underline\">Y. Sattar</span>, Z. Khalid, R.A. Kennedy"
     },
     {
       "name": "Robust Reconstruction of Spherical Signals with Finite Rate of Innovation",
       "publisher": "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2017)",
       "releaseDate": "2017",
       "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7952912",
-      "summary": "Y. Sattar, Z. Khalid, R.A. Kennedy"
+      "summary": "<span style=\"font-weight: 700; text-decoration: underline\">Y. Sattar</span>, Z. Khalid, R.A. Kennedy"
     },
     {
       "name": "Group Activity Recognition in Visual Data: A Retrospective Analysis of Recent Advancements",
       "publisher": "IEEE International Conference on Digital Futures and Transformative Technologies (ICoDT2 2021)",
       "releaseDate": "2021",
       "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9441478",
-      "summary": "S. Sattar, Y. Sattar, M. Shahzad, M.M. Fraz"
+      "summary": "S. Sattar, <span style=\"font-weight: 700; text-decoration: underline\">Y. Sattar</span>, M. Shahzad, M.M. Fraz"
     },
     {
       "name": "Convergence of Gradient-based Semi-supervised Learning with Self-training",
       "publisher": "arXiv (Preprint)",
       "releaseDate": "2020",
       "url": "https://www.dropbox.com/scl/fo/qzqydfhhx4vw5i3s5i5dz/ALGmZvfQmqsZ1hXxVSJqzuY?rlkey=wyhf67rr569d2j1cnt4v3tjdg&st=rxghh41w&dl=0",
-      "summary": "Y. Sattar, S. Oymak"
+      "summary": "<span style=\"font-weight: 700; text-decoration: underline\">Y. Sattar</span>, S. Oymak"
     }
   ],
   "talks": [
