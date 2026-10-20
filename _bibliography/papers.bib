@@ -3,6 +3,27 @@
 
 @string{aps = {American Physical Society,}}
 
+
+@article{dai2026extracting,
+  author = {Dai, Yijia and Gao, Zhaolin and Sattar, Yahya and Sun, Jennifer J and Dean, Sarah},
+  title = {Extracting Algorithms in Pre-trained {LLMs}: A Case on Hidden {Markov} Models},
+  journal = {In submission to the 15th International Conference on Learning Representations (ICLR 2027)},
+  year = {2026},
+  abbr = {ICLR},
+  pdf = {https://arxiv.org/pdf/2607.22646},
+  theme = {llm}
+}
+
+@inproceedings{sattar2026two,
+  author = {Sattar, Yahya and Choi, Sunmook and M-Zhang, L. and Jedra, Yassir and Fazel, Maryam and Dean, Sarah},
+  title = {Two-Layer Linear Auto-Regressive Models Estimate Latent States},
+  booktitle = {The 43rd International Conference on Machine Learning (ICML)},
+  year = {2026},
+  abbr = {ICML},
+  pdf = {https://arxiv.org/pdf/2606.12691},
+  theme = {llm}
+}
+
 @article{dai2025pre,
   author = {Dai, Yijia and Gao, Zhaolin and Sattar, Yahya and Dean, Sarah and Sun, Jennifer J},
   title = {Pre-trained Large Language Models Learn to Predict Hidden Markov Models In-context},
@@ -19,9 +40,68 @@
   in-context learning in LLMs and establishes its potential as a powerful tool for uncovering hidden structure in complex scientific data.},
   preview={NeurIPS_2025.png},
   selected={true},
-  pdf = {https://openreview.net/pdf?id=btBqWTbf6q}
+  pdf = {https://openreview.net/pdf?id=btBqWTbf6q},
+  theme = {llm}
 }
 
+@article{mzhang2026performance,
+  author = {M-Zhang, L. and Choi, Sunmook and Sattar, Yahya and Jedra, Yassir and Dean, Sarah and Fazel, Maryam},
+  title = {Performance Gaps Between Open-Loop, Certainty-Equivalent, and Optimal Control Under Action-Dependent Observations},
+  journal = {In submission to the 30th International Conference on Artificial Intelligence and Statistics (AISTATS 2027)},
+  year = {2026},
+  abbr = {AISTATS},
+  theme = {latent}
+}
+
+@article{choi2025explore,
+  author = {Choi, Sunmook and Sattar, Yahya and Jedra, Yassir and Fazel, Maryam and Dean, Sarah},
+  title = {Explore-then-Commit for Nonstationary Linear Bandits with Latent Dynamics},
+  journal = {The 29th International Conference on Artificial Intelligence and Statistics (AISTATS)},
+  year = {2026},
+  abbr={AISTATS},
+  abstract={We study a nonstationary bandit problem where rewards depend on both actions and latent states, the latter governed by unknown linear 
+  dynamics. Crucially, the state dynamics also depend on the actions, resulting in tension between short-term and long-term rewards. We propose an 
+  explore-then-commit algorithm for a finite horizon T. During the exploration phase, random Rademacher actions enable estimation of the Markov 
+  parameters of the linear dynamics, which characterize the action-reward relationship. In the commit phase, the algorithm uses the estimated parameters 
+  to design an optimized action sequence for long-term reward. Our proposed algorithm achieves O(T^{2/3}) regret. Our analysis handles two key 
+  challenges: learning from temporally correlated rewards, and designing action sequences with optimal long-term reward. We address the first challenge 
+  by providing near-optimal sample complexity and error bounds for system identification using bilinear rewards. We address the second challenge by 
+  proving an equivalence with indefinite quadratic optimization over a hypercube, a known NP-hard problem. We provide a sub-optimality guarantee for 
+  this problem, enabling our regret upper bound. Lastly, we propose a semidefinite relaxation with Goemans-Williamson rounding as a practical approach.},
+  preview={AISTATS_2026.png},
+  selected={true},
+  pdf = {https://arxiv.org/pdf/2510.16208},
+  theme = {latent}
+}
+
+@article{sattar2026bilinear,
+  author = {Sattar, Yahya and Jedra, Yassir and Fazel, Maryam and Dean, Sarah},
+  title = {Bilinear System Identification: A Unified Finite-Sample Analysis},
+  journal = {In submission to the IFAC Journal of Systems and Control},
+  year = {2026},
+  abbr = {IFAC},
+  theme = {bilinear}
+}
+
+@article{cao2026dual,
+  author = {Cao, Daniel and Du, Beixi and Lowitt, Andrew and Choi, Sunmook and Dean, Sarah and Sattar, Yahya},
+  title = {Dual Control of Linear Systems from Bilinear Observations with Belief Space Model Predictive Control},
+  journal = {In submission to the 2027 American Control Conference (ACC 2027)},
+  year = {2026},
+  abbr = {ACC},
+  pdf = {https://arxiv.org/pdf/2604.24663},
+  theme = {bilinear}
+}
+
+@inproceedings{sattar2026learning,
+  author = {Sattar, Yahya and Jedra, Yassir and Str{\"a}sser, Robin and Allg{\"o}wer, Frank and Fazel, Maryam and Dean, Sarah},
+  title = {Learning \& Control Beyond Linearity: Towards a Non-asymptotic Theory for Bilinear Systems},
+  booktitle = {2026 {IEEE} 65th Conference on Decision and Control ({CDC}), Tutorial},
+  year = {2026},
+  abbr = {CDC},
+  pdf = {https://arxiv.org/pdf/2609.22338},
+  theme = {bilinear}
+}
 
 @article{sattar2025finite,
   author = {Sattar, Yahya and Jedra, Yassir and Fazel, Maryam and Dean, Sarah},
@@ -38,92 +118,8 @@
   are well-aligned with our theoretical results.},
   preview={L4DC_2025.png},
   selected={true},
-  pdf = {https://arxiv.org/pdf/2501.07652}
-}
-
-
-@article{sattar2022non,
-  author = {Sattar, Yahya and Oymak, Samet},
-  title = {Non-asymptotic and Accurate Learning of Nonlinear Dynamical Systems},
-  journal = {Journal of Machine Learning Research},
-  volume = {23},
-  number = {140},
-  pages = {1--49},
-  year = {2022},
-  abbr = { JMLR},
-  abstract = {We consider the problem of learning a nonlinear dynamical system governed by a nonlinear state equation 
-  h_{t+1} = \phi(h_t, u_t; \theta) + w_t. Here \theta  is the unknown system dynamics, h_t is the state, u_t is the input and w_t is the additive 
-  noise vector. We study gradient based algorithms to learn the system dynamics \theta from samples obtained from a single finite trajectory. If the system is 
-  run by a stabilizing input policy, then using a mixing-time argument we show that temporally-dependent samples can be approximated by i.i.d. samples. 
-  We then develop new guarantees for the uniform convergence of the gradient of the empirical loss induced by these i.i.d. samples. Unlike existing works, 
-  our bounds are noise sensitive which allows for learning the ground-truth dynamics with high accuracy and small sample complexity. When combined, 
-  our results facilitate efficient learning of a broader class of nonlinear dynamical systems as compared to the prior works. We specialize 
-  our guarantees to entrywise nonlinear activations and verify our theory in various numerical experiments.},
-  preview={JMLR_2022.png},
-  selected={true},
-  pdf = {https://www.jmlr.org/papers/volume23/20-617/20-617.pdf}
-}
-
-@article{sattar2021identification,
-  author = {Sattar, Yahya and Du, Zhe and Tarzanagh, Davoud Ataee and Balzano, Laura and Ozay, Necmiye and Oymak, Samet},
-  title = {Identification and Adaptive Control of {Markov} Jump Systems: Sample Complexity and Regret Bounds},
-  journal = {{IEEE} Transactions on Automatic Control (Submission)},
-  year = {2023},
-  abbr={TAC},
-  abstract={Learning how to effectively control unknown dynamical systems is crucial for intelligent autonomous systems. This task becomes a significant 
-  challenge when the underlying dynamics are changing with time. Motivated by this challenge, this paper considers the problem of controlling an unknown 
-  Markov jump linear system (MJS) to optimize a quadratic objective. By taking a model-based perspective, we consider identification-based adaptive 
-  control of MJSs. We first provide a system identification algorithm for MJS to learn the dynamics in each mode as well as the Markov transition matrix, 
-  underlying the evolution of the mode switches, from a single trajectory of the system states, inputs, and modes. Through martingale-based arguments, 
-  sample complexity of this algorithm is shown to be O(1/sqrt(T)). We then propose an adaptive control scheme that performs system 
-  identification together with certainty equivalent control to adapt the controllers in an episodic fashion. Combining our sample complexity results 
-  with recent perturbation results for certainty equivalent control, we prove that when the episode lengths are appropriately chosen, the proposed 
-  adaptive control scheme achieves O(sqrt(T)) regret, which can be improved to O(polylog(T)) with partial knowledge of the system. 
-  Our proof strategy introduces innovations to handle Markovian jumps and a weaker notion of stability common in MJSs. Our analysis provides insights 
-  into system theoretic quantities that affect learning accuracy and control performance. Numerical simulations are presented to further reinforce 
-  these insights.},
-  preview={TAC_2026.png},
-  selected={true},
-  pdf = {https://arxiv.org/pdf/2111.07018}
-}
-
-@article{sattar2020quickly,
-  author = {Sattar, Yahya and Oymak, Samet},
-  title = {Quickly Finding the Best Linear Model in High Dimensions via Projected Gradient Descent},
-  journal = {{IEEE} Transactions on Signal Processing},
-  volume = {68},
-  pages = {818--829},
-  year = {2020},
-  abbr={ TSP},
-  abstract = {We study the problem of finding the best linear model that can minimize least-squares loss given a dataset. While this problem is trivial 
-  in the low-dimensional regime, it becomes more interesting in high-dimensions where the population minimizer is assumed to lie on a manifold such as 
-  sparse vectors. We propose projected gradient descent (PGD) algorithm to estimate the population minimizer in the finite sample regime. We establish 
-  linear convergence rate and data-dependent estimation error bounds for PGD. Our contributions include: 1) The results are established for heavier 
-  tailed subexponential distributions besides subgaussian and allows for an intercept term. 2) We directly analyze the empirical risk minimization and 
-  do not require a realizable model that connects input data and labels. The numerical experiments validate our theoretical results.},
-  preview={TSP_2020.png},
-  selected={true},
-  pdf = {https://par.nsf.gov/servlets/purl/10206602}
-}
-
-@article{choi2025explore,
-  author = {Choi, Sunmook and Sattar, Yahya and Jedra, Yassir and Fazel, Maryam and Dean, Sarah},
-  title = {Explore-then-Commit for Nonstationary Linear Bandits with Latent Dynamics},
-  journal = {under Submission},
-  year = {2025},
-  abbr={ Submission},
-  abstract={We study a nonstationary bandit problem where rewards depend on both actions and latent states, the latter governed by unknown linear 
-  dynamics. Crucially, the state dynamics also depend on the actions, resulting in tension between short-term and long-term rewards. We propose an 
-  explore-then-commit algorithm for a finite horizon T. During the exploration phase, random Rademacher actions enable estimation of the Markov 
-  parameters of the linear dynamics, which characterize the action-reward relationship. In the commit phase, the algorithm uses the estimated parameters 
-  to design an optimized action sequence for long-term reward. Our proposed algorithm achieves O(T^{2/3}) regret. Our analysis handles two key 
-  challenges: learning from temporally correlated rewards, and designing action sequences with optimal long-term reward. We address the first challenge 
-  by providing near-optimal sample complexity and error bounds for system identification using bilinear rewards. We address the second challenge by 
-  proving an equivalence with indefinite quadratic optimization over a hypercube, a known NP-hard problem. We provide a sub-optimality guarantee for 
-  this problem, enabling our regret upper bound. Lastly, we propose a semidefinite relaxation with Goemans-Williamson rounding as a practical approach.},
-  preview={AISTATS_2026.png},
-  selected={true},
-  pdf = {https://arxiv.org/pdf/2510.16208}
+  pdf = {https://arxiv.org/pdf/2501.07652},
+  theme = {bilinear}
 }
 
 @article{sattar2025sub,
@@ -141,7 +137,27 @@
   covariance remains bounded. We illustrate our theoretical results through numerical experiments in multiple synthetic settings.},
   preview={CDC_2025.png},
   selected={true},
-  pdf = {https://arxiv.org/pdf/2504.11555?}
+  pdf = {https://arxiv.org/pdf/2504.11555?},
+  theme = {bilinear}
+}
+
+@inproceedings{sattar2025learning,
+  author = {Sattar, Yahya and Jedra, Yassir and Dean, Sarah},
+  title = {Learning Linear Dynamics from Bilinear Observations},
+  booktitle = {2025 American Control Conference ({ACC})},
+  pages = {3109--3115},
+  year = {2025},
+  abbr={ ACC},
+  abstract = {We consider the problem of learning a realization of a partially observed dynamical system with linear state transitions and bilinear 
+  observations. Under very mild assumptions on the process and measurement noises, we provide a finite time analysis for learning the unknown dynamics 
+  matrices (up to a similarity transform). Our analysis involves a regression problem with heavy-tailed and dependent data. Moreover, each row of our 
+  design matrix contains a Kronecker product of current input with a history of inputs, making it difficult to guarantee persistence of excitation. 
+  We overcome these challenges, first providing a data-dependent high probability error bound for arbitrary but fixed inputs. Then, we derive a 
+  data-independent error bound for inputs chosen according to a simple random design. Our main results provide an upper bound on the statistical error 
+  rates and sample complexity of learning the unknown dynamics matrices from a single finite trajectory of bilinear observations.},
+  preview={ACC_2025.png},
+  pdf = {https://arxiv.org/pdf/2409.16499},
+  theme = {bilinear}
 }
 
 @inproceedings{sattar2022finite,
@@ -159,7 +175,50 @@
   of the problem, specifically our error rates do not deteriorate with increasing instability. Finally, we show that numerical experiments are 
   well-aligned with our theoretical results.},
   preview={CDC_2022.png},
-  pdf = {https://arxiv.org/pdf/2208.13915}
+  pdf = {https://arxiv.org/pdf/2208.13915},
+  theme = {bilinear}
+}
+
+@article{sattar2021identification,
+  author = {Sattar, Yahya and Du, Zhe and Tarzanagh, Davoud Ataee and Balzano, Laura and Ozay, Necmiye and Oymak, Samet},
+  title = {Identification and Adaptive Control of {Markov} Jump Systems: Sample Complexity and Regret Bounds},
+  journal = {{IEEE} Transactions on Automatic Control (In revision)},
+  year = {2026},
+  abbr={TAC},
+  abstract={Learning how to effectively control unknown dynamical systems is crucial for intelligent autonomous systems. This task becomes a significant 
+  challenge when the underlying dynamics are changing with time. Motivated by this challenge, this paper considers the problem of controlling an unknown 
+  Markov jump linear system (MJS) to optimize a quadratic objective. By taking a model-based perspective, we consider identification-based adaptive 
+  control of MJSs. We first provide a system identification algorithm for MJS to learn the dynamics in each mode as well as the Markov transition matrix, 
+  underlying the evolution of the mode switches, from a single trajectory of the system states, inputs, and modes. Through martingale-based arguments, 
+  sample complexity of this algorithm is shown to be O(1/sqrt(T)). We then propose an adaptive control scheme that performs system 
+  identification together with certainty equivalent control to adapt the controllers in an episodic fashion. Combining our sample complexity results 
+  with recent perturbation results for certainty equivalent control, we prove that when the episode lengths are appropriately chosen, the proposed 
+  adaptive control scheme achieves O(sqrt(T)) regret, which can be improved to O(polylog(T)) with partial knowledge of the system. 
+  Our proof strategy introduces innovations to handle Markovian jumps and a weaker notion of stability common in MJSs. Our analysis provides insights 
+  into system theoretic quantities that affect learning accuracy and control performance. Numerical simulations are presented to further reinforce 
+  these insights.},
+  preview={TAC_2026.png},
+  selected={true},
+  pdf = {https://arxiv.org/pdf/2111.07018},
+  theme = {mjs}
+}
+
+@article{du2022certainty,
+  author={Sattar, Yahya and Du, Zhe and Tarzanagh, Davoud Ataee and Oymak, Samet and Balzano, Laura and Ozay, Necmiye},
+  title = {Certainty Equivalent Quadratic Control for {Markov} Jump Systems},
+  journal = {2022 American Control Conference ({ACC})},
+  pages={2871--2878},
+  year = {2022},
+  abbr={ ACC},
+  abstract = {Real-world control applications often involve complex dynamics subject to abrupt changes or variations. Markov jump linear systems 
+  (MJS) provide a rich framework for modeling such dynamics. Despite an extensive history, theoretical understanding of parameter sensitivities of 
+  MJS control is somewhat lacking. Motivated by this, we investigate robustness aspects of certainty equivalent model-based optimal control for MJS 
+  with quadratic cost function. Given the uncertainty in the system matrices and in the Markov transition matrix is bounded by and respectively, 
+  robustness results are established for (i) the solution to coupled Riccati equations and (ii) the optimal cost, by providing explicit perturbation 
+  bounds which decay as O(\epsilon + \eta)and O((\epsilon + \eta)2) respectively.},
+  preview={ACC_2022b.png},
+  pdf = {https://arxiv.org/pdf/2105.12358},
+  theme = {mjs}
 }
 
 @inproceedings{du2022data,
@@ -181,61 +240,8 @@
   notion of stability common in MJSs. Our analysis provides insights into system theoretic quantities that affect learning accuracy and control 
   performance. Numerical simulations are presented to further reinforce these insights.},
    preview={ACC_2022a.png},
-  pdf = {https://web.eecs.umich.edu/~necmiye/pubs/Du+_acc22.pdf}
-}
-
-@article{du2022certainty,
-  author={Sattar, Yahya and Du, Zhe and Tarzanagh, Davoud Ataee and Oymak, Samet and Balzano, Laura and Ozay, Necmiye},
-  title = {Certainty Equivalent Quadratic Control for {Markov} Jump Systems},
-  journal = {2022 American Control Conference ({ACC})},
-  pages={2871--2878},
-  year = {2022},
-  abbr={ ACC},
-  abstract = {Real-world control applications often involve complex dynamics subject to abrupt changes or variations. Markov jump linear systems 
-  (MJS) provide a rich framework for modeling such dynamics. Despite an extensive history, theoretical understanding of parameter sensitivities of 
-  MJS control is somewhat lacking. Motivated by this, we investigate robustness aspects of certainty equivalent model-based optimal control for MJS 
-  with quadratic cost function. Given the uncertainty in the system matrices and in the Markov transition matrix is bounded by and respectively, 
-  robustness results are established for (i) the solution to coupled Riccati equations and (ii) the optimal cost, by providing explicit perturbation 
-  bounds which decay as O(\epsilon + \eta)and O((\epsilon + \eta)2) respectively.},
-  preview={ACC_2022b.png},
-  pdf = {https://arxiv.org/pdf/2105.12358}
-}
-
-@article{li2020exploring,
-  author = {Li, Mingchen and Sattar, Yahya and Thrampoulidis, Christos and Oymak, Samet},
-  title = {Exploring Weight Importance and {H}essian Bias in Model Pruning},
-  journal = {arXiv preprint},
-  year = {2020},
-  abbr={ preprint},
-  abstract={Model pruning is an essential procedure for building compact and computationally-efficient machine learning models. A key feature of a good 
-  pruning algorithm is that it accurately quantifies the relative importance of the model weights. While model pruning has a rich history, we still don't 
-  have a full grasp of the pruning mechanics even for relatively simple problems involving linear models or shallow neural nets. In this work, we provide 
-  a principled exploration of pruning by building on a natural notion of importance. For linear models, we show that this notion of importance is 
-  captured by covariance scaling which connects to the well-known Hessian-based pruning. We then derive asymptotic formulas that allow us to precisely 
-  compare the performance of different pruning methods. For neural networks, we demonstrate that the importance can be at odds with larger magnitudes 
-  and proper initialization is critical for magnitude-based pruning. Specifically, we identify settings in which weights become more important despite 
-  becoming smaller, which in turn leads to a catastrophic failure of magnitude-based pruning. Our results also elucidate that implicit regularization in 
-  the form of Hessian structure has a catalytic role in identifying the important weights, which dictate the pruning performance.},
-  preview={SIAM_2020.png},
-  pdf = {https://arxiv.org/pdf/2006.10903}
-}
-
-@inproceedings{sattar2025learning,
-  author = {Sattar, Yahya and Jedra, Yassir and Dean, Sarah},
-  title = {Learning Linear Dynamics from Bilinear Observations},
-  booktitle = {2025 American Control Conference ({ACC})},
-  pages = {3109--3115},
-  year = {2025},
-  abbr={ ACC},
-  abstract = {We consider the problem of learning a realization of a partially observed dynamical system with linear state transitions and bilinear 
-  observations. Under very mild assumptions on the process and measurement noises, we provide a finite time analysis for learning the unknown dynamics 
-  matrices (up to a similarity transform). Our analysis involves a regression problem with heavy-tailed and dependent data. Moreover, each row of our 
-  design matrix contains a Kronecker product of current input with a history of inputs, making it difficult to guarantee persistence of excitation. 
-  We overcome these challenges, first providing a data-dependent high probability error bound for arbitrary but fixed inputs. Then, we derive a 
-  data-independent error bound for inputs chosen according to a simple random design. Our main results provide an upper bound on the statistical error 
-  rates and sample complexity of learning the unknown dynamics matrices from a single finite trajectory of bilinear observations.},
-  preview={ACC_2025.png},
-  pdf = {https://arxiv.org/pdf/2409.16499}
+  pdf = {https://web.eecs.umich.edu/~necmiye/pubs/Du+_acc22.pdf},
+  theme = {mjs}
 }
 
 @inproceedings{kazemian2024random,
@@ -253,44 +259,31 @@
   functions (CCF). Simulation experiments on a double pendulum empirically demonstrate the advantages of our methods.},
   preview={L4DC_2024.png},
   pdf = {https://arxiv.org/pdf/2406.06514},
-  year = {2024}
+  year = {2024},
+  theme = {nonlinear}
 }
 
-@inproceedings{sattar2021estimation,
-  author = {Sattar, Yahya and Khalid, Zubair},
-  title = {Estimation of Groundwater Storage Variations in {Indus} River Basin Using {GRACE} Data},
-  booktitle = {{IEEE} International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
-  pages = {4315--4319},
-  year = {2021},
-  abbr={ ICASSP},
-  abstract={The depletion and variations of groundwater storage (GWS) are of critical importance for sustainable groundwater management. In this work, 
-  we use Gravity Recovery and Climate Experiment (GRACE) to estimate variations in the terrestrial water storage (TWS) and use it in conjunction with 
-  the Global Land Data Assimilation Sys tem (GLDAS) data to extract GWS variations over time for Indus river basin (IRB). We present a data processing 
-  framework that pro cesses and combines these data-sets to provide an estimate of GWS changes. We also present the design of a band-limited optimally 
-  concentrated window function for spatial localization of the data in the region of interest. We construct the so-called optimal window for the IRB 
-  region and use it in our processing framework to ana lyze the GWS variations from 2005 to 2015. Our analysis reveals the expected seasonal variations 
-  in GWS and signifies groundwater depletion on average over the time period. Our proposed process ing framework can be used to analyze spatio-temporal 
-  variations in TWSandGWSforany region of interest.},
-  preview={ICASSP_2021.png},
-  pdf = {https://arxiv.org/pdf/2010.12175}
-}
-
-@inproceedings{sattar2021group,
-  author = {Sattar, Shoaib and Sattar, Yahya and Shahzad, Muhammad and Fraz, Muhammad M},
-  title = {Group Activity Recognition in Visual Data: A Retrospective Analysis of Recent Advancements},
-  booktitle = {International Conference on Digital Futures and Transformative Technologies (ICoDT2)},
-  pages = {156--161},
-  year = {2021},
-  abbr={ ICoDT2},
-  abstract={Human-activity recognition has gained significant attention recently within the computer vision and machine learning community, due to its 
-  applications in diverse fields such as health, entertainment, visual surveillance and sports analytics. An important sub-category of human-activity 
-  recognition is group activity recognition (GAR) where a group of individuals is involved in an activity. The main challenge in such recognition tasks 
-  is to learn the relationship between a group of individuals in a scene and its evolution over time. Recently, many techniques based on deep networks 
-  and graphical models have been proposed for group activity recognition. In this paper, we critically analyze the state-of-the-art (SOTA) techniques 
-  for group activity recognition. We propose a new taxonomy for categorizing the SOTA techniques conducted in the field of group activity recognition 
-  and divide the existing literature into different subcategories. We also identify the available datasets and the existing research challenges for GAR.},
-  preview={ICODT_2021.png},
-  pdf = {https://ieeexplore.ieee.org/abstract/document/9441478}
+@article{sattar2022non,
+  author = {Sattar, Yahya and Oymak, Samet},
+  title = {Non-asymptotic and Accurate Learning of Nonlinear Dynamical Systems},
+  journal = {Journal of Machine Learning Research},
+  volume = {23},
+  number = {140},
+  pages = {1--49},
+  year = {2022},
+  abbr = { JMLR},
+  abstract = {We consider the problem of learning a nonlinear dynamical system governed by a nonlinear state equation 
+  h_{t+1} = \phi(h_t, u_t; \theta) + w_t. Here \theta  is the unknown system dynamics, h_t is the state, u_t is the input and w_t is the additive 
+  noise vector. We study gradient based algorithms to learn the system dynamics \theta from samples obtained from a single finite trajectory. If the system is 
+  run by a stabilizing input policy, then using a mixing-time argument we show that temporally-dependent samples can be approximated by i.i.d. samples. 
+  We then develop new guarantees for the uniform convergence of the gradient of the empirical loss induced by these i.i.d. samples. Unlike existing works, 
+  our bounds are noise sensitive which allows for learning the ground-truth dynamics with high accuracy and small sample complexity. When combined, 
+  our results facilitate efficient learning of a broader class of nonlinear dynamical systems as compared to the prior works. We specialize 
+  our guarantees to entrywise nonlinear activations and verify our theory in various numerical experiments.},
+  preview={JMLR_2022.png},
+  selected={true},
+  pdf = {https://www.jmlr.org/papers/volume23/20-617/20-617.pdf},
+  theme = {nonlinear}
 }
 
 @inproceedings{sattar2019simple,
@@ -307,44 +300,8 @@
   connection between classical supervised learning and temporally-dependent problems via mixing-time arguments. Numerical experiments verify our 
   theoretical findings.},
   preview={CAMSAP_2019.png},
-  pdf = {https://ieeexplore.ieee.org/abstract/document/9022665}
-}
-
-@inproceedings{sattar2019accurate,
-  author = {Sattar, Yahya and Khalid, Zubair and Kennedy, Rodney A},
-  title = {Accurate Reconstruction of Finite Rate of Innovation Signals on the Sphere},
-  booktitle = {{IEEE} International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
-  pages = {4924--4928},
-  year = {2019},
-  abbr={ ICASSP},
-  abstract={We propose a method for the accurate and robust reconstruction of the non-bandlimited finite rate of innovation signals on the sphere. 
-  For signals consisting of a finite number of Dirac functions on the sphere, we develop an annihilating filter based method for the accurate recovery 
-  of parameters of the Dirac functions using a finite number of observations of the bandlimited signal. In comparison to existing techniques, the 
-  proposed method enables more accurate reconstruction primarily due to the better conditioning of systems involved in the recovery of parameters. 
-  In order to reconstruct K Diracs on the sphere, the proposed method requires samples of the signal bandlimited in the spherical harmonic (SH) domain 
-  at SH degree equal or greater than K + sqrt(K + 1/4) - 1/2. In comparison to the existing state-of-the-art technique, the required bandlimit, and 
-  consequently the number of samples, of the proposed method is (approximately) the same. We also conduct numerical experiments to demonstrate that 
-  the proposed technique is more accurate than the existing methods by a factor of 10^7 or more for 2 \leq K \leq 20.},
-  preview={ICASSP_2019.png},
-  pdf = {https://ieeexplore.ieee.org/abstract/document/8682607}
-}
-
-@inproceedings{sattar2017robust,
-  author = {Sattar, Yahya and Khalid, Zubair and Kennedy, Rodney A},
-  title = {Robust Reconstruction of Spherical Signals with Finite Rate of Innovation},
-  booktitle = {{IEEE} International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
-  pages = {4199--4203},
-  year = {2017},
-  abbr={ ICASSP},
-  abstract={We develop a robust method for the accurate reconstruction of non-bandlimited finite rate of innovation signals composed of finite number 
-  of Diracs. For the recovery of parameters of K Diracs defining the signal, the proposed method requires more than (K + sqrt(K))^2 samples of the signal 
-  band-limited in harmonic domain such that the spherical harmonic transform can be computed using the samples. In comparison with the existing methods, 
-  the proposed method is robust in a sense that it does not require all Diracs to have distinct colatitude parameter. We first estimate the N number of 
-  Diracs which do not have distinct colatitude parameter. Once N is determined, the proposed method requires, at most, (N^2+N)/2 + 1 unique and 
-  intelligently chosen rotations of the signal to recover all parameters accurately. We also provide illustrations to demonstrate the accurate 
-  reconstruction using the proposed method.},
-  preview={ICASSP_2017.png},
-  pdf = {https://ieeexplore.ieee.org/abstract/document/7952912}
+  pdf = {https://ieeexplore.ieee.org/abstract/document/9022665},
+  theme = {nonlinear}
 }
 
 @inproceedings{saini2025case,
@@ -364,6 +321,133 @@
   analysis helps us ground the utility of subspace clustering based approaches to analyze neural representations and motivate future work on exploring 
   the utility of enforcing similarity between self-expressive structures as a means of training neural networks.},
   preview={CPAL_2025.png},
-  pdf = {https://openreview.net/pdf?id=vMGYwMFRKf}
+  pdf = {https://openreview.net/pdf?id=vMGYwMFRKf},
+  theme = {highdim}
 }
 
+@article{sattar2020quickly,
+  author = {Sattar, Yahya and Oymak, Samet},
+  title = {Quickly Finding the Best Linear Model in High Dimensions via Projected Gradient Descent},
+  journal = {{IEEE} Transactions on Signal Processing},
+  volume = {68},
+  pages = {818--829},
+  year = {2020},
+  abbr={ TSP},
+  abstract = {We study the problem of finding the best linear model that can minimize least-squares loss given a dataset. While this problem is trivial 
+  in the low-dimensional regime, it becomes more interesting in high-dimensions where the population minimizer is assumed to lie on a manifold such as 
+  sparse vectors. We propose projected gradient descent (PGD) algorithm to estimate the population minimizer in the finite sample regime. We establish 
+  linear convergence rate and data-dependent estimation error bounds for PGD. Our contributions include: 1) The results are established for heavier 
+  tailed subexponential distributions besides subgaussian and allows for an intercept term. 2) We directly analyze the empirical risk minimization and 
+  do not require a realizable model that connects input data and labels. The numerical experiments validate our theoretical results.},
+  preview={TSP_2020.png},
+  selected={true},
+  pdf = {https://par.nsf.gov/servlets/purl/10206602},
+  theme = {highdim}
+}
+
+@article{li2020exploring,
+  author = {Li, Mingchen and Sattar, Yahya and Thrampoulidis, Christos and Oymak, Samet},
+  title = {Exploring Weight Importance and {H}essian Bias in Model Pruning},
+  journal = {arXiv preprint},
+  year = {2020},
+  abbr={ preprint},
+  abstract={Model pruning is an essential procedure for building compact and computationally-efficient machine learning models. A key feature of a good 
+  pruning algorithm is that it accurately quantifies the relative importance of the model weights. While model pruning has a rich history, we still don't 
+  have a full grasp of the pruning mechanics even for relatively simple problems involving linear models or shallow neural nets. In this work, we provide 
+  a principled exploration of pruning by building on a natural notion of importance. For linear models, we show that this notion of importance is 
+  captured by covariance scaling which connects to the well-known Hessian-based pruning. We then derive asymptotic formulas that allow us to precisely 
+  compare the performance of different pruning methods. For neural networks, we demonstrate that the importance can be at odds with larger magnitudes 
+  and proper initialization is critical for magnitude-based pruning. Specifically, we identify settings in which weights become more important despite 
+  becoming smaller, which in turn leads to a catastrophic failure of magnitude-based pruning. Our results also elucidate that implicit regularization in 
+  the form of Hessian structure has a catalytic role in identifying the important weights, which dictate the pruning performance.},
+  preview={SIAM_2020.png},
+  pdf = {https://arxiv.org/pdf/2006.10903},
+  theme = {highdim}
+}
+
+@inproceedings{sattar2021estimation,
+  author = {Sattar, Yahya and Khalid, Zubair},
+  title = {Estimation of Groundwater Storage Variations in {Indus} River Basin Using {GRACE} Data},
+  booktitle = {{IEEE} International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages = {4315--4319},
+  year = {2021},
+  abbr={ ICASSP},
+  abstract={The depletion and variations of groundwater storage (GWS) are of critical importance for sustainable groundwater management. In this work, 
+  we use Gravity Recovery and Climate Experiment (GRACE) to estimate variations in the terrestrial water storage (TWS) and use it in conjunction with 
+  the Global Land Data Assimilation Sys tem (GLDAS) data to extract GWS variations over time for Indus river basin (IRB). We present a data processing 
+  framework that pro cesses and combines these data-sets to provide an estimate of GWS changes. We also present the design of a band-limited optimally 
+  concentrated window function for spatial localization of the data in the region of interest. We construct the so-called optimal window for the IRB 
+  region and use it in our processing framework to ana lyze the GWS variations from 2005 to 2015. Our analysis reveals the expected seasonal variations 
+  in GWS and signifies groundwater depletion on average over the time period. Our proposed process ing framework can be used to analyze spatio-temporal 
+  variations in TWSandGWSforany region of interest.},
+  preview={ICASSP_2021.png},
+  pdf = {https://arxiv.org/pdf/2010.12175},
+  theme = {sphere}
+}
+
+@inproceedings{sattar2019accurate,
+  author = {Sattar, Yahya and Khalid, Zubair and Kennedy, Rodney A},
+  title = {Accurate Reconstruction of Finite Rate of Innovation Signals on the Sphere},
+  booktitle = {{IEEE} International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages = {4924--4928},
+  year = {2019},
+  abbr={ ICASSP},
+  abstract={We propose a method for the accurate and robust reconstruction of the non-bandlimited finite rate of innovation signals on the sphere. 
+  For signals consisting of a finite number of Dirac functions on the sphere, we develop an annihilating filter based method for the accurate recovery 
+  of parameters of the Dirac functions using a finite number of observations of the bandlimited signal. In comparison to existing techniques, the 
+  proposed method enables more accurate reconstruction primarily due to the better conditioning of systems involved in the recovery of parameters. 
+  In order to reconstruct K Diracs on the sphere, the proposed method requires samples of the signal bandlimited in the spherical harmonic (SH) domain 
+  at SH degree equal or greater than K + sqrt(K + 1/4) - 1/2. In comparison to the existing state-of-the-art technique, the required bandlimit, and 
+  consequently the number of samples, of the proposed method is (approximately) the same. We also conduct numerical experiments to demonstrate that 
+  the proposed technique is more accurate than the existing methods by a factor of 10^7 or more for 2 \leq K \leq 20.},
+  preview={ICASSP_2019.png},
+  pdf = {https://ieeexplore.ieee.org/abstract/document/8682607},
+  theme = {sphere}
+}
+
+@inproceedings{sattar2017robust,
+  author = {Sattar, Yahya and Khalid, Zubair and Kennedy, Rodney A},
+  title = {Robust Reconstruction of Spherical Signals with Finite Rate of Innovation},
+  booktitle = {{IEEE} International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages = {4199--4203},
+  year = {2017},
+  abbr={ ICASSP},
+  abstract={We develop a robust method for the accurate reconstruction of non-bandlimited finite rate of innovation signals composed of finite number 
+  of Diracs. For the recovery of parameters of K Diracs defining the signal, the proposed method requires more than (K + sqrt(K))^2 samples of the signal 
+  band-limited in harmonic domain such that the spherical harmonic transform can be computed using the samples. In comparison with the existing methods, 
+  the proposed method is robust in a sense that it does not require all Diracs to have distinct colatitude parameter. We first estimate the N number of 
+  Diracs which do not have distinct colatitude parameter. Once N is determined, the proposed method requires, at most, (N^2+N)/2 + 1 unique and 
+  intelligently chosen rotations of the signal to recover all parameters accurately. We also provide illustrations to demonstrate the accurate 
+  reconstruction using the proposed method.},
+  preview={ICASSP_2017.png},
+  pdf = {https://ieeexplore.ieee.org/abstract/document/7952912},
+  theme = {sphere}
+}
+
+@inproceedings{sattar2021group,
+  author = {Sattar, Shoaib and Sattar, Yahya and Shahzad, Muhammad and Fraz, Muhammad M},
+  title = {Group Activity Recognition in Visual Data: A Retrospective Analysis of Recent Advancements},
+  booktitle = {International Conference on Digital Futures and Transformative Technologies (ICoDT2)},
+  pages = {156--161},
+  year = {2021},
+  abbr={ ICoDT2},
+  abstract={Human-activity recognition has gained significant attention recently within the computer vision and machine learning community, due to its 
+  applications in diverse fields such as health, entertainment, visual surveillance and sports analytics. An important sub-category of human-activity 
+  recognition is group activity recognition (GAR) where a group of individuals is involved in an activity. The main challenge in such recognition tasks 
+  is to learn the relationship between a group of individuals in a scene and its evolution over time. Recently, many techniques based on deep networks 
+  and graphical models have been proposed for group activity recognition. In this paper, we critically analyze the state-of-the-art (SOTA) techniques 
+  for group activity recognition. We propose a new taxonomy for categorizing the SOTA techniques conducted in the field of group activity recognition 
+  and divide the existing literature into different subcategories. We also identify the available datasets and the existing research challenges for GAR.},
+  preview={ICODT_2021.png},
+  pdf = {https://ieeexplore.ieee.org/abstract/document/9441478},
+  theme = {other}
+}
+
+@article{sattar2020convergence,
+  author = {Sattar, Yahya and Oymak, Samet},
+  title = {Convergence of Gradient-based Semi-supervised Learning with Self-training},
+  journal = {arXiv preprint},
+  year = {2020},
+  abbr = {preprint},
+  theme = {other}
+}
