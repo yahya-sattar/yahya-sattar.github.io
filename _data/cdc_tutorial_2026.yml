@@ -93,8 +93,8 @@ speakers:
       - "Non-Asymptotic Bilinear System Identification: Bilinear Dynamics and Bilinear Observations"
       - "Control of Bilinear Dynamics: Koopman Theoretic Approaches, LMI-Based Design, and SOS Controller Synthesis (with Yassir Jedra)"
 
-# Official times from the CDC 2026 program (session ThCCT21), Hawaii time.
-# Talk abstracts are from the organizers' Final_Abstracts.pdf.
+# Times and talk abstracts are from the organizers' Final_Abstracts.pdf (Hawaii time).
+# The session is ThCCT21 in the CDC 2026 program (15:45–17:30).
 program:
   - part: "Introduction"
   - start: "15:45"
@@ -111,11 +111,15 @@ program:
     speakers: "Yassir Jedra"
     abstract: "Building on these challenges, this talk develops statistical tools for least-squares estimation with nonlinear, dependent, and heavy-tailed features. We then introduce statistical tools to establish persistence of excitation with heavy-tailed covariates; and to control truncation and input-dependent noise, providing the foundation for the identification results in the next talk."
   - start: "16:15"
-    end: "16:40"
+    end: "16:35"
     code: ThCCT21.3
     title: "Non-Asymptotic Bilinear System Identification: Bilinear Dynamics and Bilinear Observations"
     speakers: "Yahya Sattar"
     abstract: "Applying the preceding statistical tools, this talk establishes finite-sample identification guarantees from a single trajectory for fully and partially observed bilinear dynamics and linear dynamics with bilinear observations. We explain how input choice, stability, multi-step excitation, noise, truncation etc., affect estimation, preparing the transition from bilinear system identification to controller design."
+  - start: "16:35"
+    end: "16:40"
+    title: "Break"
+    break: true
   - part: "Part II – Control: Bilinear Dynamics, and Bilinear Observations"
   - start: "16:40"
     end: "17:00"
@@ -131,11 +135,15 @@ program:
     abstract: "After examining bilinear observations, we turn to bilinear dynamics under state feedback. We review LMI and SOS methods for synthesizing stabilizing controllers and certifying regions of attraction under model uncertainty, connecting identification errors to control guarantees. We then show how Koopman lifting extends these approaches to nonlinear systems while accounting for approximation errors."
   - part: "Part III – Conclusions & Discussions"
   - start: "17:15"
-    end: "17:30"
+    end: "17:25"
     code: ThCCT21.6
     title: "End-to-End Learning and Control of Bilinear Systems"
     speakers: "Maryam Fazel / Sarah Dean"
     abstract: "Bringing together the preceding identification and control methods, this concluding talk considers end-to-end learning and control of bilinear systems. Finally, we discuss the connections to policy optimization, representation learning, and predictive world models for extending the tutorial’s results."
+  - start: "17:25"
+    end: "17:30"
+    title: "Questions"
+    break: true
 
 # Authors of the tutorial paper, in paper order.
 authors: [sattar, jedra, strasser, allgower, fazel, dean]
