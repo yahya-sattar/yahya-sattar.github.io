@@ -277,20 +277,6 @@ nav_order: 5.5
       </div>
       {% endfor %}
     </div>
-
-    <h2 style="margin-top: 2rem">Tutorial paper authors</h2>
-    <p>
-      <a href="{{ t.paper_url }}">{{ t.title }}: {{ t.subtitle }}</a>
-    </p>
-    <div class="tut-grid">
-      {% for key in t.authors %} {% assign p = t.people[key] %}
-      <div class="tut-card">
-        <h3>{{ p.name }}</h3>
-        <div class="aff">{{ p.affiliation }}</div>
-        <a href="{{ p.url }}">Research website →</a>
-      </div>
-      {% endfor %}
-    </div>
   </section>
 
   <section id="contact">

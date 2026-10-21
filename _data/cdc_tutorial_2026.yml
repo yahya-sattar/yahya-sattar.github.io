@@ -68,7 +68,7 @@ people:
     affiliation: University of Stuttgart
     url: https://www.ist.uni-stuttgart.de/institute/team/Allgoewer/
 
-organizers: [sattar, jedra, strasser, dean, fazel]
+organizers: [sattar, jedra, strasser, allgower, dean, fazel]
 
 chairs:
   - role: Session Chair
@@ -134,6 +134,3 @@ program:
     end: "17:30"
     title: "Questions"
     break: true
-
-# Authors of the tutorial paper, in paper order.
-authors: [sattar, jedra, strasser, allgower, fazel, dean]
