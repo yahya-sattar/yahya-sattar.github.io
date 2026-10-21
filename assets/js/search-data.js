@@ -37,6 +37,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-cdc-tutorial",
+          title: "cdc tutorial",
+          description: "Learning and Control Beyond Linearity: Towards a Non-asymptotic Theory for Bilinear Systems. A tutorial session at IEEE CDC 2026.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cdc-tutorial-2026/";
+          },
         },{id: "nav-teaching",
           title: "teaching",
           description: "Courses that I taught or worked as a Teaching Assistant.",
