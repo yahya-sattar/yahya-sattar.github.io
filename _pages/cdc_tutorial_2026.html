@@ -105,18 +105,6 @@ nav_order: 5.5
     font-size: 1.5rem;
     font-weight: 600;
   }
-  .tut-card details {
-    margin-top: 0.5rem;
-    font-size: 0.9rem;
-  }
-  .tut-card summary {
-    cursor: pointer;
-    color: var(--global-theme-color);
-  }
-  .tut-card details ul {
-    padding-left: 1.1rem;
-    margin: 0.5rem 0 0;
-  }
   .tut-program {
     width: 100%;
     border-collapse: collapse;
@@ -209,7 +197,7 @@ nav_order: 5.5
   <section id="speakers">
     <p class="label">Speakers</p>
     <h2>Speakers</h2>
-    <p>Select "Talk information" to see each speaker's talks.</p>
+    <p>See the <a href="#program">program</a> for each speaker's talks.</p>
     <div class="tut-grid">
       {% for s in t.speakers %} {% assign p = t.people[s.person] %}
       <div class="tut-card">
@@ -221,14 +209,6 @@ nav_order: 5.5
         <h3>{{ p.name }}</h3>
         <div class="aff">{{ p.affiliation }}</div>
         <a href="{{ p.url }}">Website →</a>
-        <details>
-          <summary>Talk information</summary>
-          <ul>
-            {% for talk in s.talks %}
-            <li>{{ talk }}</li>
-            {% endfor %}
-          </ul>
-        </details>
       </div>
       {% endfor %}
     </div>

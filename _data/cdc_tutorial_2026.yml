@@ -76,25 +76,12 @@ chairs:
   - role: Session Co-Chair
     person: dean
 
-# Order of the speaker cards; each talk lists the parts of the program the speaker leads.
+# Order of the speaker cards.
 speakers:
   - person: fazel
-    talks:
-      - "Bilinear Learning and Control: Motivations, and Key Challenges (Introduction, with Sarah Dean)"
-      - "End-to-End Learning and Control of Bilinear Systems (Conclusions, with Sarah Dean)"
   - person: dean
-    talks:
-      - "Bilinear Learning and Control: Motivations, and Key Challenges (Introduction, with Maryam Fazel)"
-      - "Control with Bilinear Observations: Sub-Optimality of the Separation Principle; Dual Control with Belief Space MPC"
-      - "End-to-End Learning and Control of Bilinear Systems (Conclusions, with Maryam Fazel)"
   - person: jedra
-    talks:
-      - "Least-Squares Theory Revisited: Dependence Structures, Martingales and Heavy-Tailed Covariates"
-      - "Control of Bilinear Dynamics: Koopman Theoretic Approaches, LMI-Based Design, and SOS Controller Synthesis (with Yahya Sattar)"
   - person: sattar
-    talks:
-      - "Non-Asymptotic Bilinear System Identification: Bilinear Dynamics and Bilinear Observations"
-      - "Control of Bilinear Dynamics: Koopman Theoretic Approaches, LMI-Based Design, and SOS Controller Synthesis (with Yassir Jedra)"
 
 # Times and talk abstracts are from the organizers' Final_Abstracts.pdf (Hawaii time).
 # The session is ThCCT21 in the CDC 2026 program (15:45–17:30).
