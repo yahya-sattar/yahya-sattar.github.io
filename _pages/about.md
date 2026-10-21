@@ -6,8 +6,8 @@ permalink: /
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: prof_pic_2026.jpg
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>email: <a href="mailto:ysattar@cornell.edu">ysattar@cornell.edu</a></p>
     <p>Department of CS at Cornell</p>
