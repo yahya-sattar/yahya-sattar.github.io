@@ -1,0 +1,293 @@
+---
+layout: default
+permalink: /cdc-tutorial-2026/
+title: CDC 2026 Tutorial
+description: "Learning and Control Beyond Linearity: Towards a Non-asymptotic Theory for Bilinear Systems. A tutorial session at IEEE CDC 2026."
+nav: false
+---
+
+{% assign t = site.data.cdc_tutorial_2026 %}
+
+<style>
+  .tut section {
+    padding-top: 1rem;
+    margin-top: 2.5rem;
+    border-top: 1px solid var(--global-divider-color);
+    scroll-margin-top: 70px;
+  }
+  .tut h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  .tut .label {
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.75rem;
+    color: var(--global-theme-color);
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+  .tut-hero {
+    padding: 2rem 0 1rem;
+  }
+  .tut-hero h1 {
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+  }
+  .tut-hero .subtitle {
+    font-size: 1.3rem;
+    color: var(--global-text-color-light);
+    margin-bottom: 1rem;
+  }
+  .tut-hero .info {
+    margin: 0.75rem 0 1.25rem;
+    line-height: 1.8;
+  }
+  .tut-hero .info i {
+    width: 1.25rem;
+    color: var(--global-theme-color);
+  }
+  .tut-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.25rem;
+    font-size: 0.95rem;
+    margin-top: 1rem;
+  }
+  .tut-btn {
+    display: inline-block;
+    padding: 0.4rem 0.9rem;
+    margin: 0 0.5rem 0.5rem 0;
+    border: 1px solid var(--global-theme-color);
+    border-radius: 4px;
+    color: var(--global-theme-color);
+  }
+  .tut-btn.primary {
+    background: var(--global-theme-color);
+    color: var(--global-bg-color) !important;
+  }
+  .tut-btn:hover {
+    text-decoration: none;
+    opacity: 0.85;
+  }
+  .tut-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 1rem;
+  }
+  .tut-card {
+    border: 1px solid var(--global-divider-color);
+    border-radius: 6px;
+    padding: 1rem;
+    background: var(--global-card-bg-color);
+  }
+  .tut-card h3 {
+    font-size: 1.1rem;
+    margin: 0.6rem 0 0.15rem;
+  }
+  .tut-card .aff {
+    color: var(--global-text-color-light);
+    font-size: 0.9rem;
+    margin-bottom: 0.4rem;
+  }
+  .tut-avatar {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--global-theme-color);
+    color: var(--global-bg-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .tut-card details {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+  }
+  .tut-card summary {
+    cursor: pointer;
+    color: var(--global-theme-color);
+  }
+  .tut-card details ul {
+    padding-left: 1.1rem;
+    margin: 0.5rem 0 0;
+  }
+  .tut-program {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .tut-program td,
+  .tut-program th {
+    padding: 0.55rem 0.5rem;
+    border-bottom: 1px solid var(--global-divider-color);
+    vertical-align: top;
+  }
+  .tut-program th {
+    text-align: left;
+    font-weight: 600;
+  }
+  .tut-program .time {
+    white-space: nowrap;
+    width: 7.5rem;
+    font-variant-numeric: tabular-nums;
+  }
+  .tut-program .part td {
+    font-weight: 600;
+    color: var(--global-theme-color);
+    padding-top: 1rem;
+  }
+  .tut-program .brk td {
+    color: var(--global-text-color-light);
+  }
+  .tut-program .who {
+    font-weight: 600;
+  }
+  .tut ul.topics li {
+    margin-bottom: 0.35rem;
+  }
+</style>
+
+<div class="post tut" id="top">
+  <header class="tut-hero">
+    <p class="label">
+      <a href="{{ t.conference_url }}">{{ t.eyebrow }}</a>
+    </p>
+    <h1>{{ t.title }}</h1>
+    <p class="subtitle">{{ t.subtitle }}</p>
+    <div class="info">
+      <div><i class="fa-regular fa-calendar"></i> {{ t.date }}</div>
+      <div><i class="fa-solid fa-location-dot"></i> {{ t.location }}</div>
+      <div><i class="fa-regular fa-clock"></i> {{ t.length }}</div>
+    </div>
+    <a class="tut-btn primary" href="{{ t.paper_url }}">Tutorial paper (arXiv)</a>
+    <a class="tut-btn" href="#speakers">Speakers</a>
+    <a class="tut-btn" href="#program">Program</a>
+    <nav class="tut-nav">
+      <a href="#about">About</a>
+      <a href="#topics">Topics</a>
+      <a href="#speakers">Speakers</a>
+      <a href="#program">Program</a>
+      <a href="#organizers">Organizers</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <p class="label">About the tutorial</p>
+    <h2>Overview</h2>
+    <p>{{ t.abstract }}</p>
+  </section>
+
+  <section id="topics">
+    <p class="label">Topics</p>
+    <h2>Scope</h2>
+    <ul class="topics">
+      {% for topic in t.topics %}
+      <li>{{ topic }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section id="speakers">
+    <p class="label">Speakers</p>
+    <h2>Speakers</h2>
+    <p>Select "Talk information" to see each speaker's talks.</p>
+    <div class="tut-grid">
+      {% for s in t.speakers %} {% assign p = t.people[s.person] %}
+      <div class="tut-card">
+        {% if p.photo %}
+        <img class="tut-avatar" src="{{ p.photo | prepend: '/assets/img/' | relative_url }}" alt="{{ p.name }}" />
+        {% else %} {% assign parts = p.name | split: ' ' %}
+        <div class="tut-avatar" aria-hidden="true">{{ parts.first | slice: 0 }}{{ parts.last | slice: 0 }}</div>
+        {% endif %}
+        <h3>{{ p.name }}</h3>
+        <div class="aff">{{ p.affiliation }}</div>
+        <a href="{{ p.url }}">Website →</a>
+        <details>
+          <summary>Talk information</summary>
+          <ul>
+            {% for talk in s.talks %}
+            <li>{{ talk }}</li>
+            {% endfor %}
+          </ul>
+        </details>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section id="program">
+    <p class="label">Program</p>
+    <h2>Session structure</h2>
+    <p>
+      A {{ t.length }} session. Times are relative to the start of the session; the slot in the CDC program will be posted here once it is announced.
+    </p>
+    <table class="tut-program">
+      <thead>
+        <tr>
+          <th class="time">Time</th>
+          <th>Program</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for item in t.program %} {% if item.part and item.start == nil %}
+        <tr class="part">
+          <td colspan="2">{{ item.part }}</td>
+        </tr>
+        {% else %}
+        <tr class="{% if item.break %}brk{% endif %}">
+          <td class="time">{{ item.start }}–{{ item.end }}</td>
+          <td>
+            {% if item.part %}
+            <div class="who" style="color: var(--global-theme-color)">{{ item.part }}</div>
+            {% endif %} {% if item.speakers %}<span class="who">{{ item.speakers }}</span><br />{% endif %} {{ item.title }}
+          </td>
+        </tr>
+        {% endif %} {% endfor %}
+      </tbody>
+    </table>
+  </section>
+
+  <section id="organizers">
+    <p class="label">Organizers</p>
+    <h2>Session chairs</h2>
+    <div class="tut-grid">
+      {% for c in t.chairs %} {% assign p = t.people[c.person] %}
+      <div class="tut-card">
+        <div class="label">{{ c.role }}</div>
+        <h3>{{ p.name }}</h3>
+        <div class="aff">{{ p.affiliation }}</div>
+        <a href="{{ p.url }}">Research website →</a>
+      </div>
+      {% endfor %}
+    </div>
+
+    <h2 style="margin-top: 2rem">Tutorial paper authors</h2>
+    <p>
+      <a href="{{ t.paper_url }}">{{ t.title }}: {{ t.subtitle }}</a>
+    </p>
+    <div class="tut-grid">
+      {% for key in t.authors %} {% assign p = t.people[key] %}
+      <div class="tut-card">
+        <h3>{{ p.name }}</h3>
+        <div class="aff">{{ p.affiliation }}</div>
+        <a href="{{ p.url }}">Research website →</a>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section id="contact">
+    <p class="label">Contact</p>
+    <h2>Tutorial information</h2>
+    <p>
+      The session day, time, and room will be posted here once the
+      <a href="{{ t.conference_url }}">CDC 2026</a> program is final. For questions, contact <a href="mailto:{{ t.contact }}">{{ t.contact }}</a>.
+    </p>
+    <p><a href="#top">Back to top ↑</a></p>
+  </section>
+</div>
