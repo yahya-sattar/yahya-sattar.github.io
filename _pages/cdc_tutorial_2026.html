@@ -150,6 +150,18 @@ nav_order: 5.5
   .tut ul.topics li {
     margin-bottom: 0.35rem;
   }
+  .tut-abs {
+    margin-top: 0.35rem;
+    font-size: 0.9rem;
+  }
+  .tut-abs summary {
+    cursor: pointer;
+    color: var(--global-theme-color);
+  }
+  .tut-abs p {
+    margin: 0.4rem 0 0;
+    color: var(--global-text-color-light);
+  }
 </style>
 
 <div class="post tut" id="top">
@@ -162,9 +174,10 @@ nav_order: 5.5
     <div class="info">
       <div><i class="fa-regular fa-calendar"></i> {{ t.date }}</div>
       <div><i class="fa-solid fa-location-dot"></i> {{ t.location }}</div>
-      <div><i class="fa-regular fa-clock"></i> {{ t.length }}</div>
+      <div><i class="fa-regular fa-clock"></i> {{ t.length }} · Session {{ t.session_code }}</div>
     </div>
     <a class="tut-btn primary" href="{{ t.paper_url }}">Tutorial paper (arXiv)</a>
+    <a class="tut-btn" href="{{ t.program_url }}">CDC program entry</a>
     <a class="tut-btn" href="#speakers">Speakers</a>
     <a class="tut-btn" href="#program">Program</a>
     <nav class="tut-nav">
@@ -225,7 +238,8 @@ nav_order: 5.5
     <p class="label">Program</p>
     <h2>Session structure</h2>
     <p>
-      A {{ t.length }} session. Times are relative to the start of the session; the slot in the CDC program will be posted here once it is announced.
+      {{ t.date }}, {{ t.location }}. Times follow the
+      <a href="{{ t.program_url }}">official CDC 2026 program</a> (session {{ t.session_code }}).
     </p>
     <table class="tut-program">
       <thead>
@@ -245,7 +259,13 @@ nav_order: 5.5
           <td>
             {% if item.part %}
             <div class="who" style="color: var(--global-theme-color)">{{ item.part }}</div>
-            {% endif %} {% if item.speakers %}<span class="who">{{ item.speakers }}</span><br />{% endif %} {{ item.title }}
+            {% endif %} {% if item.speakers %}<span class="who">{{ item.speakers }}</span><br />{% endif %} {{ item.title }} {% if item.abstract or
+            item.note %}
+            <details class="tut-abs">
+              <summary>{% if item.abstract %}Abstract{% else %}Details{% endif %}{% if item.code %} · {{ item.code }}{% endif %}</summary>
+              <p>{{ item.abstract | default: item.note }}</p>
+            </details>
+            {% endif %}
           </td>
         </tr>
         {% endif %} {% endfor %}
@@ -260,6 +280,17 @@ nav_order: 5.5
       {% for c in t.chairs %} {% assign p = t.people[c.person] %}
       <div class="tut-card">
         <div class="label">{{ c.role }}</div>
+        <h3>{{ p.name }}</h3>
+        <div class="aff">{{ p.affiliation }}</div>
+        <a href="{{ p.url }}">Research website →</a>
+      </div>
+      {% endfor %}
+    </div>
+
+    <h2 style="margin-top: 2rem">Organizers</h2>
+    <div class="tut-grid">
+      {% for key in t.organizers %} {% assign p = t.people[key] %}
+      <div class="tut-card">
         <h3>{{ p.name }}</h3>
         <div class="aff">{{ p.affiliation }}</div>
         <a href="{{ p.url }}">Research website →</a>
@@ -286,8 +317,8 @@ nav_order: 5.5
     <p class="label">Contact</p>
     <h2>Tutorial information</h2>
     <p>
-      The session day, time, and room will be posted here once the
-      <a href="{{ t.conference_url }}">CDC 2026</a> program is final. For questions, contact <a href="mailto:{{ t.contact }}">{{ t.contact }}</a>.
+      Session {{ t.session_code }} at <a href="{{ t.conference_url }}">CDC 2026</a>: {{ t.date }}, {{ t.location }}. For questions, contact
+      <a href="mailto:{{ t.contact }}">{{ t.contact }}</a>.
     </p>
     <p><a href="#top">Back to top ↑</a></p>
   </section>

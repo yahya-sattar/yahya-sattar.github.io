@@ -5,8 +5,10 @@ title: "Learning and Control Beyond Linearity"
 subtitle: "Towards a Non-asymptotic Theory for Bilinear Systems"
 eyebrow: "IEEE Conference on Decision and Control · CDC 2026 · Tutorial Session"
 conference_url: https://cdc2026.ieeecss.org/
-date: "December 15–18, 2026 (session day and time to be announced)"
-location: "Hilton Hawaiian Village, Honolulu, Hawaii"
+date: "Thursday, December 17, 2026 · 15:45–17:30 (Hawaii time)"
+location: "Room Coral 3-5, Hilton Hawaiian Village, Honolulu, Hawaii"
+session_code: ThCCT21
+program_url: https://css.paperplaza.net/conferences/conferences/CDC26/program/CDC26_ContentListWeb_4.html#thcct21
 length: "1 hour 45 minutes"
 paper_url: https://arxiv.org/pdf/2609.22338
 contact: ysattar@cornell.edu
@@ -24,8 +26,8 @@ abstract: >-
   from bilinear observations, where the classical separation principle fails, and review tractable
   approaches based on belief-space receding horizon control. We also cover stabilization of bilinear
   dynamics under state feedback using semi-definite programming, LMI relaxations, sum-of-squares
-  methods, and Koopman-based lifting. We conclude by discussing the open problems in combined
-  learning and control of bilinear systems.
+  methods, and Koopman-based lifting. We conclude by discussing connections to reinforcement learning
+  and machine learning, and some open problems in combined learning and control of bilinear systems.
 
 topics:
   - "Least-squares theory for dependent and heavy-tailed covariates: one-sided Bernstein inequality, blocking arguments, martingale concentration"
@@ -63,6 +65,8 @@ people:
     affiliation: University of Stuttgart
     url: https://www.ist.uni-stuttgart.de/institute/team/Allgoewer/
 
+organizers: [sattar, jedra, strasser, dean, fazel]
+
 chairs:
   - role: Session Chair
     person: fazel
@@ -82,51 +86,55 @@ speakers:
       - "End-to-End Learning and Control of Bilinear Systems (Conclusions, with Maryam Fazel)"
   - person: jedra
     talks:
-      - "Least-Squares Theory Revisited: Dependence Structures, Martingales & Heavy-tailed Covariates"
-      - "Control of Bilinear Dynamics: Koopman Theoretic Approaches, LMI-based Design, and SOS Controller Synthesis (with Yahya Sattar)"
+      - "Least-Squares Theory Revisited: Dependence Structures, Martingales and Heavy-Tailed Covariates"
+      - "Control of Bilinear Dynamics: Koopman Theoretic Approaches, LMI-Based Design, and SOS Controller Synthesis (with Yahya Sattar)"
   - person: sattar
     talks:
-      - "Non-asymptotic Bilinear System Identification: Bilinear Dynamics & Bilinear Observations"
-      - "Control of Bilinear Dynamics: Koopman Theoretic Approaches, LMI-based Design, and SOS Controller Synthesis (with Yassir Jedra)"
+      - "Non-Asymptotic Bilinear System Identification: Bilinear Dynamics and Bilinear Observations"
+      - "Control of Bilinear Dynamics: Koopman Theoretic Approaches, LMI-Based Design, and SOS Controller Synthesis (with Yassir Jedra)"
 
-# Times are minutes from the start of the session (the session slot is not announced yet).
+# Official times from the CDC 2026 program (session ThCCT21), Hawaii time.
 program:
-  - start: "0:00"
-    end: "0:10"
-    part: "Introduction"
-    title: "Bilinear Learning and Control: Motivations, and Key Challenges"
+  - part: "Introduction"
+  - start: "15:45"
+    end: "15:55"
+    code: ThCCT21.1
+    title: "Learning and Control Beyond Linearity: Towards a Non-Asymptotic Theory for Bilinear Systems"
     speakers: "Sarah Dean / Maryam Fazel"
+    note: "Opening talk: Bilinear Learning and Control: Motivations, and Key Challenges. The session's first program entry is the tutorial paper; see the overview above for its abstract."
   - part: "Part I – Learning: Non-asymptotic Bilinear System Identification"
-  - start: "0:10"
-    end: "0:30"
-    title: "Least-Squares Theory Revisited: Dependence Structures, Martingales & Heavy-tailed Covariates"
+  - start: "15:55"
+    end: "16:15"
+    code: ThCCT21.2
+    title: "Least-Squares Theory Revisited: Dependence Structures, Martingales and Heavy-Tailed Covariates"
     speakers: "Yassir Jedra"
-  - start: "0:30"
-    end: "0:50"
-    title: "Non-asymptotic Bilinear System Identification: Bilinear Dynamics & Bilinear Observations"
+    abstract: "Building on these challenges, this talk develops statistical tools for least-squares estimation with nonlinear, dependent, and heavy-tailed features. We then introduce statistical tools to establish persistence of excitation with heavy-tailed covariates; and to control truncation and input-dependent noise, providing the foundation for the identification results in the next talk."
+  - start: "16:15"
+    end: "16:40"
+    code: ThCCT21.3
+    title: "Non-Asymptotic Bilinear System Identification: Bilinear Dynamics and Bilinear Observations"
     speakers: "Yahya Sattar"
-  - start: "0:50"
-    end: "0:55"
-    title: "Break"
-    break: true
+    abstract: "Applying the preceding statistical tools, this talk establishes finite-sample identification guarantees from a single trajectory for fully and partially observed bilinear dynamics and linear dynamics with bilinear observations. We explain how input choice, stability, multi-step excitation, noise, truncation etc., affect estimation, preparing the transition from bilinear system identification to controller design."
   - part: "Part II – Control: Bilinear Dynamics, and Bilinear Observations"
-  - start: "0:55"
-    end: "1:15"
+  - start: "16:40"
+    end: "17:00"
+    code: ThCCT21.4
     title: "Control with Bilinear Observations: Sub-Optimality of the Separation Principle; Dual Control with Belief Space MPC"
     speakers: "Sarah Dean"
-  - start: "1:15"
-    end: "1:30"
-    title: "Control of Bilinear Dynamics: Koopman Theoretic Approaches, LMI-based Design, and SOS Controller Synthesis"
+    abstract: "Moving from identification to control, this talk examines bilinear observations, where control inputs affect both state evolution and information. We explain why the separation principle fails and certainty-equivalent control can be sub-optimal. We then introduce a belief-space MPC to balance regulation and information gathering."
+  - start: "17:00"
+    end: "17:15"
+    code: ThCCT21.5
+    title: "Control of Bilinear Dynamics: Koopman Theoretic Approaches, LMI-Based Design, and SOS Controller Synthesis"
     speakers: "Yahya Sattar / Yassir Jedra"
+    abstract: "After examining bilinear observations, we turn to bilinear dynamics under state feedback. We review LMI and SOS methods for synthesizing stabilizing controllers and certifying regions of attraction under model uncertainty, connecting identification errors to control guarantees. We then show how Koopman lifting extends these approaches to nonlinear systems while accounting for approximation errors."
   - part: "Part III – Conclusions & Discussions"
-  - start: "1:30"
-    end: "1:40"
+  - start: "17:15"
+    end: "17:30"
+    code: ThCCT21.6
     title: "End-to-End Learning and Control of Bilinear Systems"
     speakers: "Maryam Fazel / Sarah Dean"
-  - start: "1:40"
-    end: "1:45"
-    title: "Questions"
-    break: true
+    abstract: "Bringing together the preceding identification and control methods, this concluding talk considers end-to-end learning and control of bilinear systems. Finally, we discuss the connections to policy optimization, representation learning, and predictive world models for extending the tutorial's results."
 
 # Authors of the tutorial paper, in paper order.
 authors: [sattar, jedra, strasser, allgower, fazel, dean]
