@@ -14,6 +14,7 @@
   preview = {ICLR_2027.png},
   selected = {true},
   selected_order = {2},
+  abstract = {Large language models (LLMs) display a striking ability to predict next observations from Hidden Markov Models (HMMs) via in-context learning (ICL), but the algorithm underlying this capability remains undetermined: prior work has proposed several candidates without consensus, and none has been grounded in the model's internal activations. We close this gap with a three-stage pipeline. First, we empirically compare LLM behavior against a suite of candidate algorithms and narrow the space to three classes -- though no single class explains LLM behavior across all HMM settings and sequence lengths. Second, we derive theoretical connections between the three classes and show how each can be implemented in-context by a Transformer, validating the construction in a small trained Transformer. Third, returning to pre-trained LLMs, we introduce the Principal Activations Probe (PAP), a layer-wise probing and intervention method that isolates algorithmic signals in model activations. PAP reveals low-dimensional linear representations that causally drive model predictions and track empirical ICL performance. PAP further reveals how these representations shift with properties of the underlying HMM regime; distinct computational stages are localized to different layers. Together, our results connect the in-context behavior of pre-trained LLMs to the underlying internal mechanisms and advance our understanding of how LLMs perform ICL on HMMs.},
   theme = {llm}
 }
 
@@ -27,6 +28,7 @@
   preview = {ICML_2026.png},
   selected = {true},
   selected_order = {1},
+  abstract = {Auto-regressive models have emerged as powerful tools for sequential data, from language to video. Understanding how and why these models learn latent representations remains an open theoretical question. In this work, we demonstrate that when trained by empirical risk minimization on data from partially observed linear dynamical systems, two-layer linear auto-regressive models naturally learn to approximate Kalman filtering. In particular, we show that the learned hidden representation coincides, up to a similarity transformation, with the state estimates produced by the optimal (Kalman) filter, even though the model has no explicit knowledge of the underlying dynamics or state. The result follows from three main insights. First, we establish that the Kalman filter is well approximated by an auto-regressive model with bounded truncation error. Second, we show that despite non-convexity, the two-layer optimization landscape is benign, i.e., all stationary points are either strict saddles or global minima. Finally, as our main contributions, we provide finite-sample guarantees on prediction error, parameter estimation error, and latent state recovery. Numerical simulations support the theoretical results and demonstrate that the latent representations of auto-regressive models recover state estimates.},
   theme = {llm}
 }
 
@@ -103,6 +105,7 @@
   abbr = {ACC},
   pdf = {https://arxiv.org/pdf/2604.24663},
   preview = {ACC_2027.png},
+  abstract = {We study finite-horizon quadratic control of linear systems with bilinear observations, in which the control input affects not only the state dynamics but also the partial observations of the state. In this setting, the separation principle can fail because control inputs influence the future quality of state estimates. State estimation requires an input-dependent Kalman filter whose gain and error covariance evolve as functions of the control inputs. To address this challenge, we propose a belief-space model predictive control (B-MPC) method that plans directly over both the estimated state and its error covariance. In particular, B-MPC plans with a deterministic surrogate of the belief evolution defined by the input-dependent Kalman filter. Through numerical experiments in two synthetic settings, we show that B-MPC can outperform both the separation-principle controller and its MPC variant in favorable regimes, and that these gains are accompanied by lower estimation covariance and more uncertainty-aware action choices.},
   theme = {bilinear}
 }
 
@@ -116,6 +119,7 @@
   preview = {CDC_2026.png},
   selected = {true},
   selected_order = {4},
+  abstract = {This tutorial provides a unified view of the emerging area of bilinear learning and control. Using linear systems as a benchmark, it explains what fundamentally changes in the bilinear settings, how recent theory addresses finite-sample learning and control, and how these ideas connect to broader themes in nonlinear control, representation learning, and data-driven decision making. For learning, we emphasize tools that are particularly useful in the bilinear settings, such as one-sided Bernstein's inequality for dependent and heavy-tailed covariates, blocking arguments, and martingale concentration for input-dependent noise. We then apply these tools to obtain finite-sample learning guarantees for fully observed bilinear systems, partially observed bilinear systems, and linear systems with bilinear observations. For control, we discuss quadratic control from bilinear observations, where the classical separation principle fails, and review tractable approaches based on belief-space receding horizon control. We also cover stabilization of bilinear dynamics under state feedback using semi-definite programming, LMI relaxations, sum-of-squares methods, and Koopman-based lifting. We conclude by discussing connections to reinforcement learning and machine learning, and some open problems in combined learning and control of bilinear systems.},
   theme = {bilinear}
 }
 
