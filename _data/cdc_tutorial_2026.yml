@@ -94,6 +94,7 @@ speakers:
       - "Control of Bilinear Dynamics: Koopman Theoretic Approaches, LMI-Based Design, and SOS Controller Synthesis (with Yassir Jedra)"
 
 # Official times from the CDC 2026 program (session ThCCT21), Hawaii time.
+# Talk abstracts are from the organizers' Final_Abstracts.pdf.
 program:
   - part: "Introduction"
   - start: "15:45"
@@ -101,7 +102,7 @@ program:
     code: ThCCT21.1
     title: "Learning and Control Beyond Linearity: Towards a Non-Asymptotic Theory for Bilinear Systems"
     speakers: "Sarah Dean / Maryam Fazel"
-    note: "Opening talk: Bilinear Learning and Control: Motivations, and Key Challenges. The session's first program entry is the tutorial paper; see the overview above for its abstract."
+    abstract: "This opening talk sets the stage for the tutorial by introducing bilinear dynamics and observations through motivating examples. We explain the key challenges in bilinear learning and control; and outline the progression from statistical tools to end-to-end learning and control."
   - part: "Part I – Learning: Non-asymptotic Bilinear System Identification"
   - start: "15:55"
     end: "16:15"
@@ -121,7 +122,7 @@ program:
     code: ThCCT21.4
     title: "Control with Bilinear Observations: Sub-Optimality of the Separation Principle; Dual Control with Belief Space MPC"
     speakers: "Sarah Dean"
-    abstract: "Moving from identification to control, this talk examines bilinear observations, where control inputs affect both state evolution and information. We explain why the separation principle fails and certainty-equivalent control can be sub-optimal. We then introduce a belief-space MPC to balance regulation and information gathering."
+    abstract: "Moving from identification to control, this talk examines bilinear observations, where control inputs affect both state evolution and information. We explain why the separation principle fail and certainty-equivalent control can be sub-optimal. We then introduce a belief-space MPC to balance regulation and information gathering."
   - start: "17:00"
     end: "17:15"
     code: ThCCT21.5
@@ -134,7 +135,7 @@ program:
     code: ThCCT21.6
     title: "End-to-End Learning and Control of Bilinear Systems"
     speakers: "Maryam Fazel / Sarah Dean"
-    abstract: "Bringing together the preceding identification and control methods, this concluding talk considers end-to-end learning and control of bilinear systems. Finally, we discuss the connections to policy optimization, representation learning, and predictive world models for extending the tutorial's results."
+    abstract: "Bringing together the preceding identification and control methods, this concluding talk considers end-to-end learning and control of bilinear systems. Finally, we discuss the connections to policy optimization, representation learning, and predictive world models for extending the tutorial’s results."
 
 # Authors of the tutorial paper, in paper order.
 authors: [sattar, jedra, strasser, allgower, fazel, dean]
