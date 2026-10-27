@@ -507,6 +507,9 @@ ninja.data = [{
           section: "News",},{id: "news-new-i-am-serving-as-an-area-chair-for-icml-2027",
           title: '[ New! ] I am serving as an Area Chair for ICML 2027!....',
           description: "",
+          section: "News",},{id: "news-new-preprint-performance-gaps-between-open-loop-certainty-equivalent-and-optimal-control-under-action-dependent-observations-joint-work-with-l-zhang-s-choi-y-jedra-s-dean-and-m-fazel-is-now-available-online-paper",
+          title: '[ New Preprint! ] “Performance Gaps Between Open-Loop, Certainty-Equivalent, and Optimal Control Under...',
+          description: "",
           section: "News",},{
         id: 'social-cv',
         title: 'CV',
